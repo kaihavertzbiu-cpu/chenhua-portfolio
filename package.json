@@ -1,0 +1,9 @@
+{
+  "name": "chenhua-home-music",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test tests/music-service.test.mjs" },
+  "dependencies": { "@meting/core": "1.6.2" }
+}

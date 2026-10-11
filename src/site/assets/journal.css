@@ -1,0 +1,22 @@
+html{scrollbar-gutter:stable}
+.writing-filters button[aria-selected=true]{color:#fff;background:var(--accent)}
+.writing-search[hidden],#writing-articles[hidden],#writing-albums[hidden]{display:none}
+.album-entry{padding:30px 0 36px;border-bottom:1px solid var(--line)}
+.album-heading time{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.album-heading h2{font:600 22px/1.5 "Noto Serif SC","Microsoft YaHei",serif;margin:10px 0 20px}
+.album-photos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.album-photo{padding:0;border:0;background:#141a1d;cursor:zoom-in;border-radius:8px;overflow:hidden}
+.album-photo img{width:100%;height:auto;display:block;transition:transform .3s}
+.album-photo:hover img{transform:scale(1.025)}
+.album-caption{font-size:14px;line-height:1.9;color:var(--muted);margin:18px 0 0}
+.album-lightbox{position:fixed;inset:0;margin:auto;max-width:none;max-height:none;width:100%;height:100%;border:0;padding:56px clamp(16px,4vw,60px) 28px;background:#171615;color:#f5f1e9;overflow:auto}
+.album-lightbox::backdrop{background:#171615ed}
+.album-lightbox figure{width:min(1200px,100%);margin:0 auto}
+.album-lightbox figure>img{width:100%;height:auto;max-height:70vh;object-fit:contain}
+.album-lightbox figcaption{width:min(860px,100%);margin:26px auto 0}
+.album-lightbox time{font-size:12px;color:#c1b7a8}
+.album-lightbox h2{font-size:19px;font-weight:500;margin:10px 0}
+.album-lightbox p{font-size:14px;line-height:1.9;color:#d2c9bd;margin:0}
+.album-close{position:fixed;right:20px;top:12px;width:38px;height:38px;border:0;background:transparent;color:#fff;font-size:28px;cursor:pointer}
+@media(max-width:600px){.album-photos{grid-template-columns:1fr;gap:12px}.album-heading h2{font-size:20px}.album-lightbox{padding-top:64px}.album-lightbox figure>img{max-height:62vh}}
+@media(prefers-reduced-motion:reduce){.album-photo img{transition:none}}

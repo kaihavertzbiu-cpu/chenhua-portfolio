@@ -1,0 +1,8 @@
+APlayer 1.10.1 — DIYgod — MIT
+https://github.com/DIYgod/APlayer
+MetingJS 2.0.2 — metowolf — MIT
+https://github.com/metowolf/MetingJS
+Files downloaded from the version-pinned npm distributions on jsDelivr.
+Separate LICENSE files accompany both libraries.
+Local APlayer change: pause and show a Chinese notice on audio errors, instead of automatically cycling through unavailable tracks.
+MetingJS is extended by music-host.js to handle timeouts and errors. No credentials are bundled.

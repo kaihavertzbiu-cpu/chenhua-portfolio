@@ -1,0 +1,535 @@
+{
+  "version": "v71",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 92,
+      "sha256": "14f058476ba7e2a3dde7201f8fb02e62edf1aee579d5f9db83eefb50fa1c3b5e"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 126,
+      "sha256": "070d2f59175da9ced6bb8c10983a750a16877981f2f766decd5a03a906ef00f0"
+    },
+    {
+      "file": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "ATTRIBUTION.md",
+      "bytes": 536,
+      "sha256": "3f91e378ac339727f256a63322f1687175df64a616e3b0358a5d1bd031e3268d"
+    },
+    {
+      "file": "index.html",
+      "bytes": 8261346,
+      "sha256": "08a2ad3500b782b3ab3fc733d3ec14c740b5bf09947ca55ad3c19ea0507e54ea"
+    },
+    {
+      "file": "lib/music-service.mjs",
+      "bytes": 5172,
+      "sha256": "6f2310cd15ec8374562a71ddbe0e19cc091d093ccb38ff22fee7f9083e0ffca8"
+    },
+    {
+      "file": "licenses/Meting-LICENSE.txt",
+      "bytes": 1076,
+      "sha256": "a237e65d8cc7c5b00008db5977b28e525caeffadfee0808408034f8959c6de20"
+    },
+    {
+      "file": "netlify/functions/music.mjs",
+      "bytes": 301,
+      "sha256": "e86d9fb4abeaf0c389c6efb265ed12f07474c14e5c4aa40276919a13db89e0e9"
+    },
+    {
+      "file": "netlify.toml",
+      "bytes": 422,
+      "sha256": "172a2c94d65a8dca71c3334a12b8ca08152a128d8deffe71023fd1e1c081841b"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 626,
+      "sha256": "5212c0a2b27117377993c5433f1d0d36ad196b93529468c38a02a49a2e4e9626"
+    },
+    {
+      "file": "package.json",
+      "bytes": 245,
+      "sha256": "0645245e6460e8c47d4f571aabbfabfd3eb10d0064586f0735c004028ef51d6f"
+    },
+    {
+      "file": "public/assets/campus-parking/parking-workspace.png",
+      "bytes": 487968,
+      "sha256": "c2eca6a9d323318a49549de75c5f5999322b4414e49c5e21556ecc7540543ac4"
+    },
+    {
+      "file": "public/assets/first-move/battle.webp",
+      "bytes": 93562,
+      "sha256": "0f096e8d25628616e905c604f83e05b9a1c3d929d14b445ea8e59f9b90d13fe0"
+    },
+    {
+      "file": "public/assets/first-move/before.webp",
+      "bytes": 83410,
+      "sha256": "eabf702721d244b01881e79608e1532dbe878000bf36117a38f20e5b8c310b50"
+    },
+    {
+      "file": "public/assets/first-move/case.css",
+      "bytes": 8723,
+      "sha256": "27b320018b71b71e50eed07adcc0dadfc182e4771bef8324026b2ec4986c675e"
+    },
+    {
+      "file": "public/assets/first-move/case.js",
+      "bytes": 2209,
+      "sha256": "cead1de1d111a6c6a34e29a5fbc16410e0c625f3b749bfa03913ae9b6a41b5af"
+    },
+    {
+      "file": "public/assets/first-move/home.webp",
+      "bytes": 69022,
+      "sha256": "337cd5f7699336b0f28cd2f736a41e19d86ed3a25edbd3e9995509f6c56aec78"
+    },
+    {
+      "file": "public/assets/first-move/mender.webp",
+      "bytes": 81892,
+      "sha256": "04e8a22d72eb7a77aa246bc5dcffb73e3a10f20def9a74f09203147f1e425a6b"
+    },
+    {
+      "file": "public/assets/first-move/reaper.webp",
+      "bytes": 59578,
+      "sha256": "3e5bc2fb1da59a4620dba076124fbfa496db9d5268a02ebbc5dce7d730679003"
+    },
+    {
+      "file": "public/assets/first-move/report.webp",
+      "bytes": 54392,
+      "sha256": "54b9bcbbf312d0d2427c831b917b8b51bdf27ffd6c9c6c3fd9c18837ebd90562"
+    },
+    {
+      "file": "public/assets/first-move/twinrail.webp",
+      "bytes": 78988,
+      "sha256": "b0a09163be1bfdea8329639e90c3825bff0d9fd346d739e27aec7b41796177c1"
+    },
+    {
+      "file": "public/assets/home-music.css",
+      "bytes": 3198,
+      "sha256": "da0ae4c5ef7c73210626030c10e6c6dbcb145b4cd02c67aad651ed4ddd6c20f1"
+    },
+    {
+      "file": "public/assets/home-music.js",
+      "bytes": 1548,
+      "sha256": "e8e0e0d545953649d1bb6d6c6f4e188f7ba51f3e2671234b186b2d767e346054"
+    },
+    {
+      "file": "public/assets/journal.css",
+      "bytes": 1887,
+      "sha256": "a30bcfe7f46f110fd592069476bd1878bacb92f8562e79aa420491c11fc919db"
+    },
+    {
+      "file": "public/assets/music-host.js",
+      "bytes": 14268,
+      "sha256": "f3d3d3613c5599f0c16d8facd148f0f0f939bdff0aebaa32b64ad9fe9df65b8e"
+    },
+    {
+      "file": "public/assets/music-launch.js",
+      "bytes": 2003,
+      "sha256": "14bde610aabad1b954a4359f580438be2767a9c89825fead00791c6b4ecf52a7"
+    },
+    {
+      "file": "public/assets/music-local.js",
+      "bytes": 8571,
+      "sha256": "a8fdaa8229b43f389ce68092ece50df2dd28629baaa855b3eccd172af63a9ef8"
+    },
+    {
+      "file": "public/assets/music-shell.css",
+      "bytes": 3995,
+      "sha256": "46b01654fa8342f52adbc7e7201c8e66fe3247b97f6723bd2223855d712ce842"
+    },
+    {
+      "file": "public/assets/music-view.css",
+      "bytes": 12447,
+      "sha256": "ffcc7fe895251fe738e5fbc583f66b701297a51f51f104ba36dc7e6a2ddb82ea"
+    },
+    {
+      "file": "public/assets/music-view.html",
+      "bytes": 3142,
+      "sha256": "4539460e1b3e2e50f57d5476659e26a8ee5991988fb33e8c32f31a2de9390786"
+    },
+    {
+      "file": "public/assets/music-view.js",
+      "bytes": 12052,
+      "sha256": "1683a412b68ce2fa250f64bc0a46c94edaca573367b3587e61fb61def904b2de"
+    },
+    {
+      "file": "public/assets/portfolio-update.css",
+      "bytes": 2679,
+      "sha256": "68f41aa640a8024d24ee3b41b9eeeb797fdc4c1b3c0d77b6ffbd8fc44e12ae1c"
+    },
+    {
+      "file": "public/assets/rift-protocol/rift-project-card-1600x900.webp",
+      "bytes": 275546,
+      "sha256": "346ae24d7e1ef5bb715fa7511ede5f8ab3679746f3cc504085d40e1061324d75"
+    },
+    {
+      "file": "public/assets/rift-protocol/rift-project-thumb-800x450.webp",
+      "bytes": 87534,
+      "sha256": "226dd3476b2f2a4c7ba9bb848bb2c3037e1cd4b3a7fbb4968270b899653963d8"
+    },
+    {
+      "file": "public/assets/rift-protocol/rift-roblox-thumbnail-1920x1080.jpg",
+      "bytes": 460300,
+      "sha256": "f41de7fb5233d0cb6e07c1be885c5866f52c1773fd202cdc9383407305254678"
+    },
+    {
+      "file": "public/assets/vendor/APlayer.LICENSE.txt",
+      "bytes": 1121,
+      "sha256": "6296c34fc24aedd4a120213620015a4feb0b16a571f3b3f640ac200e90bfdfae"
+    },
+    {
+      "file": "public/assets/vendor/APlayer.min.css",
+      "bytes": 12528,
+      "sha256": "baa4101a70dc9912af84ac1ce559b85d3d46436a15eadd54d0d47637db55f814"
+    },
+    {
+      "file": "public/assets/vendor/APlayer.min.js",
+      "bytes": 59160,
+      "sha256": "7d319df1f4fd7ac9fac4be78ffae512e2efb2b1a2cc1322c42c28edc3d51810c"
+    },
+    {
+      "file": "public/assets/vendor/Meting.LICENSE.txt",
+      "bytes": 1065,
+      "sha256": "9a38b31ee0ff382935d97db41fa1c2cf1c3dd39317f48a2deea6af30f447896f"
+    },
+    {
+      "file": "public/assets/vendor/Meting.min.js",
+      "bytes": 2908,
+      "sha256": "eb9e8f9f495fcdb8c583313a39db04905b1ac65d327b81d93b357c7c7f3f9d70"
+    },
+    {
+      "file": "public/assets/vendor/THIRD_PARTY.txt",
+      "bytes": 499,
+      "sha256": "f50a35afc349da19b69b33927f6d534628d81135100793095c378df9947eb940"
+    },
+    {
+      "file": "public/assets/writing.css",
+      "bytes": 10074,
+      "sha256": "190d3909def904893bc011fa4e55cc1d0ad0be0f30683c1073900b329e7d35b2"
+    },
+    {
+      "file": "public/assets/writing.js",
+      "bytes": 2609,
+      "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
+    },
+    {
+      "file": "public/blog-2026-industry-numbers.html",
+      "bytes": 18859,
+      "sha256": "422f2a9173a943ad3ecc7361b2200b881ae054c4fd9e936bc12b42a08998e725"
+    },
+    {
+      "file": "public/blog-ai-games-thoughts.html",
+      "bytes": 18693,
+      "sha256": "b7f2c2100eb5d6543811d8c16a9e345d007c640f56bf3954f1526a226043d685"
+    },
+    {
+      "file": "public/blog-first-action-rpg-notes.html",
+      "bytes": 18980,
+      "sha256": "facfc8576221e78e6d749724128771d5b99da331a940909347c9bfe18875cea0"
+    },
+    {
+      "file": "public/blog-first-minute.html",
+      "bytes": 18866,
+      "sha256": "ccf337736cb442977dce5775a7d9550f6376434a82ac983dec84142ee3f60d94"
+    },
+    {
+      "file": "public/blog-first-move-cards.html",
+      "bytes": 19690,
+      "sha256": "627334397d4338502b062cea7575c10c3a3bcacbfe768a69217300f5188efed6"
+    },
+    {
+      "file": "public/blog-numerical-design-learning.html",
+      "bytes": 19642,
+      "sha256": "66caa312ac936999085847ee4920d1cc03f5638701ddfb45e69946e283485df8"
+    },
+    {
+      "file": "public/blog-rock-kingdom-world.html",
+      "bytes": 18608,
+      "sha256": "1c43778bdbf657836501807a12bb915619d66a7d98fee70d39a091047ff3ffcc"
+    },
+    {
+      "file": "public/blog-ugc-ecosystem.html",
+      "bytes": 18633,
+      "sha256": "996453d0f378b18bd9e3e64a24190a37cdf6e37fc7c845a00de54fada91d368f"
+    },
+    {
+      "file": "public/blog.html",
+      "bytes": 19986,
+      "sha256": "747c5dbfe0bc96db5d490e64e0f83e321765c5fbf997ba8c7b60e50ddcf24c57"
+    },
+    {
+      "file": "public/campus-parking.html",
+      "bytes": 337157,
+      "sha256": "63d4ea0344a23c7f7798c14ac5f9029131f5f8dede612ae2156453c0c52585f9"
+    },
+    {
+      "file": "public/dashboard-demo.html",
+      "bytes": 1329901,
+      "sha256": "3b0171254e4bef79a297c839cd81928b5763a9aba5fa51de3e592f139e9c636d"
+    },
+    {
+      "file": "public/first-move.html",
+      "bytes": 10962,
+      "sha256": "d37e40c77cef979096cf8e95932a16f280f35ba7d94cac05d483af2e5a86a2f5"
+    },
+    {
+      "file": "public/index.html",
+      "bytes": 8261434,
+      "sha256": "ed8bd5dd5fb4ccb7b6845d74526bf175fde1b64d6212c8706c0f40652c8b4cd8"
+    },
+    {
+      "file": "public/rift-protocol.html",
+      "bytes": 7548,
+      "sha256": "b6d3937449f07a30d6f0156edd13f82e12fd82566f4b3e60a5b5af918b437d70"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2230,
+      "sha256": "ee97db3f11536d82510719f48c8e8f744f7c99e676a29f44a8a7a217bcde8c01"
+    },
+    {
+      "file": "src/site/assets/campus-parking/parking-workspace.png",
+      "bytes": 487968,
+      "sha256": "c2eca6a9d323318a49549de75c5f5999322b4414e49c5e21556ecc7540543ac4"
+    },
+    {
+      "file": "src/site/assets/first-move/battle.webp",
+      "bytes": 93562,
+      "sha256": "0f096e8d25628616e905c604f83e05b9a1c3d929d14b445ea8e59f9b90d13fe0"
+    },
+    {
+      "file": "src/site/assets/first-move/before.webp",
+      "bytes": 83410,
+      "sha256": "eabf702721d244b01881e79608e1532dbe878000bf36117a38f20e5b8c310b50"
+    },
+    {
+      "file": "src/site/assets/first-move/case.css",
+      "bytes": 8723,
+      "sha256": "27b320018b71b71e50eed07adcc0dadfc182e4771bef8324026b2ec4986c675e"
+    },
+    {
+      "file": "src/site/assets/first-move/case.js",
+      "bytes": 2209,
+      "sha256": "cead1de1d111a6c6a34e29a5fbc16410e0c625f3b749bfa03913ae9b6a41b5af"
+    },
+    {
+      "file": "src/site/assets/first-move/home.webp",
+      "bytes": 69022,
+      "sha256": "337cd5f7699336b0f28cd2f736a41e19d86ed3a25edbd3e9995509f6c56aec78"
+    },
+    {
+      "file": "src/site/assets/first-move/mender.webp",
+      "bytes": 81892,
+      "sha256": "04e8a22d72eb7a77aa246bc5dcffb73e3a10f20def9a74f09203147f1e425a6b"
+    },
+    {
+      "file": "src/site/assets/first-move/reaper.webp",
+      "bytes": 59578,
+      "sha256": "3e5bc2fb1da59a4620dba076124fbfa496db9d5268a02ebbc5dce7d730679003"
+    },
+    {
+      "file": "src/site/assets/first-move/report.webp",
+      "bytes": 54392,
+      "sha256": "54b9bcbbf312d0d2427c831b917b8b51bdf27ffd6c9c6c3fd9c18837ebd90562"
+    },
+    {
+      "file": "src/site/assets/first-move/twinrail.webp",
+      "bytes": 78988,
+      "sha256": "b0a09163be1bfdea8329639e90c3825bff0d9fd346d739e27aec7b41796177c1"
+    },
+    {
+      "file": "src/site/assets/home-music.css",
+      "bytes": 3198,
+      "sha256": "da0ae4c5ef7c73210626030c10e6c6dbcb145b4cd02c67aad651ed4ddd6c20f1"
+    },
+    {
+      "file": "src/site/assets/home-music.js",
+      "bytes": 1548,
+      "sha256": "e8e0e0d545953649d1bb6d6c6f4e188f7ba51f3e2671234b186b2d767e346054"
+    },
+    {
+      "file": "src/site/assets/journal.css",
+      "bytes": 1887,
+      "sha256": "a30bcfe7f46f110fd592069476bd1878bacb92f8562e79aa420491c11fc919db"
+    },
+    {
+      "file": "src/site/assets/music-host.js",
+      "bytes": 14268,
+      "sha256": "f3d3d3613c5599f0c16d8facd148f0f0f939bdff0aebaa32b64ad9fe9df65b8e"
+    },
+    {
+      "file": "src/site/assets/music-launch.js",
+      "bytes": 2003,
+      "sha256": "14bde610aabad1b954a4359f580438be2767a9c89825fead00791c6b4ecf52a7"
+    },
+    {
+      "file": "src/site/assets/music-local.js",
+      "bytes": 8571,
+      "sha256": "a8fdaa8229b43f389ce68092ece50df2dd28629baaa855b3eccd172af63a9ef8"
+    },
+    {
+      "file": "src/site/assets/music-shell.css",
+      "bytes": 3995,
+      "sha256": "46b01654fa8342f52adbc7e7201c8e66fe3247b97f6723bd2223855d712ce842"
+    },
+    {
+      "file": "src/site/assets/music-view.css",
+      "bytes": 12447,
+      "sha256": "ffcc7fe895251fe738e5fbc583f66b701297a51f51f104ba36dc7e6a2ddb82ea"
+    },
+    {
+      "file": "src/site/assets/music-view.html",
+      "bytes": 3142,
+      "sha256": "4539460e1b3e2e50f57d5476659e26a8ee5991988fb33e8c32f31a2de9390786"
+    },
+    {
+      "file": "src/site/assets/music-view.js",
+      "bytes": 12052,
+      "sha256": "1683a412b68ce2fa250f64bc0a46c94edaca573367b3587e61fb61def904b2de"
+    },
+    {
+      "file": "src/site/assets/portfolio-update.css",
+      "bytes": 2679,
+      "sha256": "68f41aa640a8024d24ee3b41b9eeeb797fdc4c1b3c0d77b6ffbd8fc44e12ae1c"
+    },
+    {
+      "file": "src/site/assets/rift-protocol/rift-project-card-1600x900.webp",
+      "bytes": 275546,
+      "sha256": "346ae24d7e1ef5bb715fa7511ede5f8ab3679746f3cc504085d40e1061324d75"
+    },
+    {
+      "file": "src/site/assets/rift-protocol/rift-project-thumb-800x450.webp",
+      "bytes": 87534,
+      "sha256": "226dd3476b2f2a4c7ba9bb848bb2c3037e1cd4b3a7fbb4968270b899653963d8"
+    },
+    {
+      "file": "src/site/assets/rift-protocol/rift-roblox-thumbnail-1920x1080.jpg",
+      "bytes": 460300,
+      "sha256": "f41de7fb5233d0cb6e07c1be885c5866f52c1773fd202cdc9383407305254678"
+    },
+    {
+      "file": "src/site/assets/vendor/APlayer.LICENSE.txt",
+      "bytes": 1121,
+      "sha256": "6296c34fc24aedd4a120213620015a4feb0b16a571f3b3f640ac200e90bfdfae"
+    },
+    {
+      "file": "src/site/assets/vendor/APlayer.min.css",
+      "bytes": 12528,
+      "sha256": "baa4101a70dc9912af84ac1ce559b85d3d46436a15eadd54d0d47637db55f814"
+    },
+    {
+      "file": "src/site/assets/vendor/APlayer.min.js",
+      "bytes": 59160,
+      "sha256": "7d319df1f4fd7ac9fac4be78ffae512e2efb2b1a2cc1322c42c28edc3d51810c"
+    },
+    {
+      "file": "src/site/assets/vendor/Meting.LICENSE.txt",
+      "bytes": 1065,
+      "sha256": "9a38b31ee0ff382935d97db41fa1c2cf1c3dd39317f48a2deea6af30f447896f"
+    },
+    {
+      "file": "src/site/assets/vendor/Meting.min.js",
+      "bytes": 2908,
+      "sha256": "eb9e8f9f495fcdb8c583313a39db04905b1ac65d327b81d93b357c7c7f3f9d70"
+    },
+    {
+      "file": "src/site/assets/vendor/THIRD_PARTY.txt",
+      "bytes": 499,
+      "sha256": "f50a35afc349da19b69b33927f6d534628d81135100793095c378df9947eb940"
+    },
+    {
+      "file": "src/site/assets/writing.css",
+      "bytes": 10074,
+      "sha256": "190d3909def904893bc011fa4e55cc1d0ad0be0f30683c1073900b329e7d35b2"
+    },
+    {
+      "file": "src/site/assets/writing.js",
+      "bytes": 2609,
+      "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
+    },
+    {
+      "file": "src/site/blog-2026-industry-numbers.html",
+      "bytes": 18696,
+      "sha256": "55f26e14d261b1a86b94a0ab7c0379b477cb83e314aaa0b2f90888963014d4f8"
+    },
+    {
+      "file": "src/site/blog-ai-games-thoughts.html",
+      "bytes": 18534,
+      "sha256": "c57246b2e0524eedf041f660ae5af082b1a8bc0f87d2c29adaf9d5e83c6ed19f"
+    },
+    {
+      "file": "src/site/blog-first-action-rpg-notes.html",
+      "bytes": 18816,
+      "sha256": "a225fe7f3548d74b1b26e270115bdcc09ec75d8e202bc98bad27b702032953e2"
+    },
+    {
+      "file": "src/site/blog-first-minute.html",
+      "bytes": 18712,
+      "sha256": "4fbd148830838bb1064549d09bc24f7f1301d68221da833f0f802332823628bd"
+    },
+    {
+      "file": "src/site/blog-first-move-cards.html",
+      "bytes": 19532,
+      "sha256": "f72da7922a496be6fdc449ee0b63de6f875ff57aab720b4c97ca98a1db747a02"
+    },
+    {
+      "file": "src/site/blog-numerical-design-learning.html",
+      "bytes": 19475,
+      "sha256": "35e3caf9f34acd9e07b3732c759a77d5b213b3592c88817886f8e917d719713d"
+    },
+    {
+      "file": "src/site/blog-rock-kingdom-world.html",
+      "bytes": 18448,
+      "sha256": "ca6cc01058018e6f4907a9f66a01130d21da6065b19b66acd1d9b3c4e152d5cf"
+    },
+    {
+      "file": "src/site/blog-ugc-ecosystem.html",
+      "bytes": 18478,
+      "sha256": "ef2fa37e9bc53a1960fe2e8e66f51d9f5648366a2451ecdab2cb8ae594060169"
+    },
+    {
+      "file": "src/site/blog.html",
+      "bytes": 19845,
+      "sha256": "f7f7b5a5657e34e8d5853d3915ae223497392cff95dbfc34871709827eeed2d6"
+    },
+    {
+      "file": "src/site/campus-parking.html",
+      "bytes": 337006,
+      "sha256": "c4e11c6ab39c30f05e2ed0db23e95f2eecb0cf197f762d76fa58f60afd75845a"
+    },
+    {
+      "file": "src/site/dashboard-demo.html",
+      "bytes": 1329750,
+      "sha256": "834eb28f7465c4cb6f840808ebc2d25c4e827de277210c7c467ddfcbddd606e5"
+    },
+    {
+      "file": "src/site/first-move.html",
+      "bytes": 10815,
+      "sha256": "ec279e5c808bb70c12fb8f44dd884a43cd419acf00fc6c621a8249d2bc4cdbd2"
+    },
+    {
+      "file": "src/site/index.html",
+      "bytes": 2264994,
+      "sha256": "91a53f535f556a5f204a8981c876912b3300fcaa38c72daf7dfcd74f6a7ed2ae"
+    },
+    {
+      "file": "src/site/rift-protocol.html",
+      "bytes": 7398,
+      "sha256": "af1288c2857647e04797a9916868d0603662ef307486f3107af65d4493c3f65b"
+    },
+    {
+      "file": "src/site/RIFT_PROTOCOL_面试讲稿.md",
+      "bytes": 12553,
+      "sha256": "40b014fcc5240498527ff9017fe47b1ce043d13b0ba9ef12383318d761e90550"
+    },
+    {
+      "file": "tests/music-service.test.mjs",
+      "bytes": 4856,
+      "sha256": "ae3bfee33d98dbeed1897795d741f10310b0ee9b3441cccb452677cf9fe83d71"
+    }
+  ]
+}

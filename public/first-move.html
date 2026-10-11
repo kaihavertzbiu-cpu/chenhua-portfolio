@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><script>if(window===window.parent){location.replace("index.html#page=first-move.html&anchor="+encodeURIComponent(location.hash.slice(1)))}</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>先攻 FIRST MOVE｜陈华的双人策略游戏</title>
+<meta name="description" content="先攻 FIRST MOVE：十二位行动者、能核暗选与攻防判断。陈华的 Roblox 策略游戏项目，包含实机画面、角色能力、设计过程与试玩入口。">
+<link rel="stylesheet" href="assets/first-move/case.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-inner"><a class="wordmark" href="#top">FIRST MOVE <span>先攻</span></a><nav aria-label="项目导航"><a href="#gameplay">玩法</a><a href="#operators">角色</a><a href="#production">制作</a><a href="index.html#projects">← 个人主页</a></nav></div></header>
+<main>
+<section class="hero wrap" id="top">
+<div class="hero-copy"><p class="kicker">CHEN HUA / ROBLOX STRATEGY GAME</p><h1>FIRST<br><span>MOVE.</span></h1><p class="hero-cn">先攻</p><p class="lead">你知道对手的阵容，<br>却不知道他下一步会选谁。</p><p class="intro">围绕隐藏意图的双人回合制策略对决。选出五名行动者，秘密锁定能核，再用攻击、格挡与角色能力争夺主动权。</p><div class="actions"><a class="button primary" href="https://www.roblox.com/games/84039214756325/FIRST-MOVE" target="_blank" rel="noopener noreferrer">Roblox 试玩 ↗</a><a class="button" href="#gameplay">了解玩法 ↓</a></div><p class="access">电脑端 · 需要 Roblox 账号与客户端 · 当前为好友试玩</p></div>
+<figure class="hero-shot"><div class="shot-label"><span>LIVE BUILD / 战斗实机</span><span>01</span></div><img src="assets/first-move/battle.webp" width="1600" height="598" alt="先攻战斗实机：两方人物卡、中央战略桌、左侧行动区和右侧对局日志"><figcaption>实际 Studio 游戏画面 · 新版角色卡与 3D 指挥室</figcaption><div class="hero-facts"><div><b>02</b><span>玩家对决</span></div><div><b>12</b><span>角色池</span></div><div><b>05</b><span>每方出战角色</span></div><div><b>中 / EN</b><span>游戏语言</span></div></div></figure>
+</section>
+<section class="section wrap" id="gameplay"><div class="section-head"><p class="kicker">01 / HIDDEN INTENT</p><h2>先读懂局面，<br>再决定这一手。</h2><p>阵容、生命和冷却是公开信息。未揭示的能核、攻击目标与命线目标则保留在各自一侧。判断建立在已有线索上。</p></div>
+<div class="decision-layout"><div class="decision-tabs" role="tablist" aria-label="对局流程">
+<button type="button" role="tab" id="tab-roster" aria-selected="true" aria-controls="decision-panel" data-scene="roster">01 <span>建立阵容</span><small>角色能力决定后续选择</small></button>
+<button type="button" role="tab" id="tab-core" aria-selected="false" tabindex="-1" aria-controls="decision-panel" data-scene="core">02 <span>能核暗选</span><small>克制关系决定先后手</small></button>
+<button type="button" role="tab" id="tab-battle" aria-selected="false" tabindex="-1" aria-controls="decision-panel" data-scene="battle">03 <span>攻击与反制</span><small>对手只能保护一名角色</small></button>
+<button type="button" role="tab" id="tab-report" aria-selected="false" tabindex="-1" aria-controls="decision-panel" data-scene="report">04 <span>行动复盘</span><small>从结算中看清关键选择</small></button></div>
+<div class="decision-panel" id="decision-panel" role="tabpanel" aria-labelledby="tab-roster"><img id="scene-image" src="assets/first-move/home.webp" width="1600" height="598" alt="游戏指挥室首页"><div class="decision-copy"><h3 id="scene-title">十二位角色，各选五人出战</h3><p id="scene-description">双方交替选人，不能选择已入队的角色。治疗、斩杀、反伤与持续消耗会形成不同的阵容取向。</p><p class="scene-caption" id="scene-caption">游戏首页 / 实机截图</p></div></div></div>
+<div class="core-rule"><div><p class="kicker">CORE RELATION</p><h3>秩序 → 新月 → 荒芜 → 秩序</h3><p>箭头表示克制。双方同时暗选；能核相同则重新选择。取得先攻后，后攻方仍有自己的行动。</p></div><div class="core-cycle" aria-label="秩序克制新月，新月克制荒芜，荒芜克制秩序"><span class="order">△ 秩序</span><span aria-hidden="true">→</span><span class="moon">◇ 新月</span><span aria-hidden="true">→</span><span class="waste">○ 荒芜</span><span aria-hidden="true">↗</span></div></div>
+</section>
+<section class="section wrap" id="operators"><div class="section-head"><p class="kicker">02 / OPERATOR DESIGN</p><h2>同一回合，<br>不同的收益与代价。</h2><p>角色并不只有伤害数值的区别。技能窗口、冷却、目标条件和存活约束，让选择攻击谁、保护谁，都有不同的后果。</p></div>
+<div class="operators">
+<article class="operator"><img src="assets/first-move/reaper.webp" width="440" height="660" loading="lazy" alt="夺魄：戴白色裂纹面具的暗黑行动者"><div><p class="kicker">REAPER / 夺魄</p><h3>把一次命中，变成斩杀。</h3><p class="numbers">攻击 8 <span>生命 22</span></p><p>掠魂在攻击阶段启用。普攻命中时直接使目标阵亡；被格挡则失效，并进入 5 回合冷却。</p><details><summary>这会怎样影响决策？</summary><p>高生命目标也面临斩杀威胁，防守方会更重视格挡方向。攻击方则需要权衡现在发动，还是保留机会等待对手判断失误。</p></details></div></article>
+<article class="operator"><img src="assets/first-move/twinrail.webp" width="440" height="660" loading="lazy" alt="双轨：手持双枪的红发行动者"><div><p class="kicker">TWINRAIL / 双轨</p><h3>两个目标，一次防守。</h3><p class="numbers">攻击 7 <span>生命 22</span></p><p>裂轨射击攻击两名不同的存活敌人。对方只能选择一人格挡；敌方只剩一人时，技能无法启用。冷却 2 回合。</p><details><summary>这会怎样影响决策？</summary><p>技能价值取决于敌方剩余阵容。前期可分散压力，后期目标减少时优势消失；被动减伤和反伤仍会影响实际结算。</p></details></div></article>
+<article class="operator"><img src="assets/first-move/mender.webp" width="440" height="660" loading="lazy" alt="复苏：携带修复装置的工程医师"><div><p class="kicker">MENDER / 复苏</p><h3>让下一轮，还有选择。</h3><p class="numbers">攻击 4 <span>生命 23</span></p><p>修复脉冲回复所有己方存活角色 3 点生命，不超过上限。冷却 3 回合；已经阵亡的角色无法被治疗。</p><details><summary>这会怎样影响决策？</summary><p>受伤人数影响一次治疗的总收益。提前治疗可能浪费溢出量，等待又可能失去队友，需要结合对方的爆发能力判断时机。</p></details></div></article>
+</div><p class="asset-note">以上为游戏内使用的角色插画，采用 AI 辅助制作。完整十二位角色可在游戏档案中查看。</p>
+</section>
+<section class="section wrap" id="production"><div class="section-head"><p class="kicker">03 / FROM PROTOTYPE TO GAME</p><h2>规则已经成立，<br>制作要让玩家真正读懂它。</h2><p>项目从已验证的网页玩法出发。先审查状态、数值、技能与胜负条件，再迁移到 Roblox；核心规则保持一致，重做操作界面与整体表现。</p></div>
+<div class="production-grid"><figure><img src="assets/first-move/home.webp" width="1600" height="598" loading="lazy" alt="3D 指挥室首页与角色详情入口"><figcaption>指挥室首页 / 中英双语实机</figcaption></figure><div class="production-copy"><h3>角色与界面围绕同一套视觉语言</h3><p>3D 战略桌提供空间氛围；操作与角色状态放在屏幕界面，避免桌面文字和人物卡重复叠加。角色图、技能大图和战斗日志保持一致的身份标识。</p><h3>反馈与结算发生在同一瞬间</h3><p>技能大图、命中数字、血条变化与死亡破碎由结算事件驱动。强攻击使用更重的反馈；减少动画模式保留信息，收起位移与碎片。</p><a class="text-link" href="blog-first-move-cards.html">阅读本次角色卡迭代记录 ↗</a></div></div>
+<div class="production-grid reverse"><figure><img src="assets/first-move/report.webp" width="1600" height="763" loading="lazy" alt="一次开发测试对局的胜利战报，列出伤害、格挡、处决与关键行动"><figcaption>开发阶段的胜利战报 / 数字来自这一次对局</figcaption></figure><div class="production-copy"><h3>战报让胜败有据可看</h3><p>分别记录伤害、治疗、格挡和处决，通过回合与事件日志还原关键行动。玩家能回看死亡连锁，也能判断一次格挡究竟改变了什么。</p><h3>隐藏信息由服务器保护</h3><p>服务器验证行动并计算结果；客户端只接收自己能看到的局面。AI 同样从公开信息决策，避免读取尚未揭示的对手选择。</p></div></div>
+<div class="responsibility"><div><p class="kicker">MY WORK</p><h3>我负责的工作</h3></div><p>玩法与数值审查、角色能力呈现、系统与新手引导设计、Luau 实现、界面与镜头音效迭代、开发测试及 Roblox 上传。制作中使用 AI 辅助代码与角色图像，最终通过实机检查调整。</p></div>
+<details class="build-status"><summary>当前版本与测试范围</summary><div><p>游戏已上传到 Roblox，当前开放电脑端好友试玩，包含 AI 对局、同服 PvP、中英双语、角色档案、对局日志、战报，以及经验、核晶、段位、成就和外观档案。</p><p>开发阶段完成两局双客户端对战与再战回归。已有玩家反馈正式服可正常游玩；双真实账号完整对战及正式服存档重进仍需独立验收。截图为真实 Studio 游戏画面，页面不展示运营人数、收入或留存指标。</p></div></details>
+</section>
+<section class="closing wrap"><p class="kicker">YOUR NEXT MOVE</p><h2>下一手，留给你。</h2><p>先了解角色，再从一次格挡开始读懂对手。</p><div class="actions"><a class="button primary" href="https://www.roblox.com/games/84039214756325/FIRST-MOVE" target="_blank" rel="noopener noreferrer">前往 Roblox ↗</a><a class="button" href="index.html#projects">返回小项目合集</a></div><p class="access">如果尚无试玩权限，也可以通过本页实机画面了解游戏。</p></section>
+</main><footer class="wrap">FIRST MOVE / 陈华 · 游戏数值与系统设计作品 <span>2026.10</span></footer>
+<script src="assets/first-move/case.js"></script>
+</body></html>

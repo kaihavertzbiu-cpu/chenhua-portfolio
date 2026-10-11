@@ -1,0 +1,12 @@
+node_modules/
+.netlify/
+.env
+.env.*
+*.log
+
+assets/music/
+public/assets/music/
+src/site/assets/music/
+*.mp3
+*.m4a
+*.ncm

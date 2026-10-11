@@ -1,0 +1,17 @@
+<section id="listening-view" class="listening-view" role="dialog" aria-modal="true" aria-labelledby="listening-title" hidden>
+  <div class="listening-backdrop" aria-hidden="true"></div>
+  <header class="listening-top"><button id="listening-close" aria-label="收起歌词页">收起 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></header>
+  <div class="listening-main">
+    <div class="listening-turntable" aria-hidden="true"><div class="listening-disc"><img id="listening-cover" alt="" hidden></div><svg class="listening-arm" viewBox="0 0 260 180"><circle cx="32" cy="25" r="13"/><path d="M32 25 102 103 Q119 121 145 126 L220 139"/><path class="listening-head" d="m215 132 22 4-2 16-22-4z"/></svg></div>
+    <section class="listening-copy"><h1 id="listening-title">我的歌单</h1><p id="listening-artist"></p><small id="listening-message" role="status"></small><div id="listening-lyrics" class="listening-lyrics" tabindex="0" aria-label="同步歌词，点击歌词跳转播放"><div id="listening-lines"></div></div><button id="listening-resume" hidden>回到当前歌词 ↓</button></section>
+  </div>
+  <footer class="listening-footer">
+    <div class="listening-progress"><time id="listening-elapsed">0:00</time><input id="listening-seek" type="range" min="0" max="1" value="0" step="0.1" aria-label="播放进度"><time id="listening-duration">0:00</time></div>
+    <div class="listening-controls"><div class="listening-footer-song"><strong id="listening-footer-title"></strong><span id="listening-footer-artist"></span></div><div class="listening-transport"><button data-listening-action="previous" aria-label="上一首"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14M18 5 8 12l10 7z"/></svg></button><button id="listening-toggle" class="listening-play" data-listening-action="toggle" aria-label="播放" aria-pressed="false"></button><button data-listening-action="next" aria-label="下一首"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 5v14M6 5l10 7-10 7z"/></svg></button></div><div class="listening-extras"><label class="listening-volume"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4zM15 8c3 2 3 6 0 8M18 5c5 4 5 10 0 14"/></svg><input id="listening-volume" type="range" min="0" max="1" value="0.35" step="0.01" aria-label="音量"></label><button id="listening-playlist" aria-label="展开播放列表" aria-expanded="false" aria-controls="listening-queue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button></div></div>
+  </footer>
+  <div id="listening-queue-shade" class="listening-queue-shade" hidden></div>
+  <aside id="listening-queue" class="listening-queue" aria-label="播放列表" hidden>
+    <div class="listening-queue-heading"><div><h2>播放列表</h2><p id="listening-queue-count">0 首歌曲</p></div><button id="listening-queue-close" aria-label="收起播放列表"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <ol id="listening-queue-list" class="listening-queue-list"></ol>
+  </aside>
+</section>

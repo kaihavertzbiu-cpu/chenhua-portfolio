@@ -1,0 +1,41 @@
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f6f3ee;color:#1f1b17;font-family:Inter,"PingFang SC","Microsoft YaHei",sans-serif}
+#site{display:block;width:100%;height:100%;border:0}
+body.music-active #site{height:calc(100% - 66px)}
+[hidden]{display:none!important}
+.music-tray{box-sizing:border-box;position:fixed;inset:auto 0 0;height:66px;padding:0 max(20px,calc((100vw - 1120px)/2));display:flex;gap:12px;align-items:center;border-top:1px solid #e7dfd3;background:#fbfaf7;z-index:40;box-shadow:0 -4px 24px rgba(56,34,21,.04)}
+.music-tray button,.music-panel button{font:inherit;cursor:pointer;border:0;background:transparent;color:inherit}
+.music-tray button:disabled{opacity:.3;cursor:default}
+.music-tray button:focus-visible,.music-panel button:focus-visible,.music-panel a:focus-visible{outline:2px solid #8f1f2a;outline-offset:3px}
+.music-control{width:36px;height:36px;border-radius:50%!important;font-size:17px!important}
+.music-control:hover{background:#eee7de}
+#music-toggle{background:#8f1f2a;color:white;font-size:14px!important}
+.music-track{min-width:0;flex:1}
+.music-track strong,.music-track span{display:block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.music-track strong{font-size:13px;font-weight:600}
+.music-track span{font-size:11px;color:#6d675f;margin-top:3px}
+#music-open{padding:8px 12px;border:1px solid #e7dfd3;border-radius:6px;font-size:12px;white-space:nowrap}
+.music-panel{box-sizing:border-box;position:fixed;right:max(20px,calc((100vw - 1120px)/2));bottom:82px;width:400px;max-height:calc(100vh - 110px);overflow:auto;background:#fbfaf7;border:1px solid #e7dfd3;border-radius:14px;box-shadow:0 20px 70px rgba(43,28,18,.18);padding:22px;z-index:50}
+.music-panel-heading{display:flex;gap:20px;justify-content:space-between;align-items:start}
+.music-panel-heading small{font-size:9px;font-weight:700;color:#8f1f2a;letter-spacing:.13em}
+.music-panel-heading h2{margin:7px 0;font:700 25px/1.4 "Noto Serif SC","Microsoft YaHei",serif}
+#music-count{font-size:12px;color:#6d675f;margin:0}
+#music-close{font-size:24px;width:34px;height:34px;border-radius:50%;color:#6d675f}
+#music-close:hover{background:#eee7de}
+#music-status{font-size:12px;line-height:1.8;color:#8f1f2a;margin:16px 0 0}
+#music-status:empty{display:none}
+#music-retry{padding:8px 14px;margin-top:12px;border:1px solid #8f1f2a;border-radius:5px;color:#8f1f2a;font-size:12px}
+.music-source{display:block;font-size:11px;color:#6d675f;text-decoration:none;margin-top:16px;padding-top:12px;border-top:1px solid #e7dfd3}
+.music-source:hover{color:#8f1f2a}
+.music-panel .aplayer{margin:18px 0 0;border-radius:8px;box-shadow:none;border:1px solid #e7dfd3;background:#fff}
+.music-panel .aplayer .aplayer-info{border-bottom:1px solid #eee7df}
+.music-panel .aplayer .aplayer-lrc p{font-family:inherit}
+.music-panel .aplayer .aplayer-list ol li{border-top-color:#f0ebe4;height:36px;line-height:36px}
+.music-panel .aplayer .aplayer-list ol li.aplayer-list-light{background:#f5eee8}
+@media(max-width:600px){.music-tray{padding:0 12px;gap:6px}.music-control{width:32px;height:32px}.music-tray .music-track{margin-left:4px}.music-panel{right:12px;left:12px;bottom:78px;width:auto;padding:18px}.music-track strong{font-size:12px}#music-open{padding:7px 8px;font-size:11px}}
+
+.music-panel .aplayer .aplayer-list ol li.music-unavailable{color:#9a9187}.music-unavailable .aplayer-list-title::after{content:" · 暂不可播放";font-size:10px;color:#9a9187}
+
+/* v58: persistent tray uses current album art */
+.music-artwork{display:block;flex:0 0 42px;width:42px;height:42px;border-radius:7px;overflow:hidden;background:repeating-radial-gradient(circle,#262521 0 1px,#151513 2px 4px);box-shadow:0 0 0 1px #0001}
+#music-cover{display:block;width:100%;height:100%;object-fit:cover}
+@media(max-width:600px){.music-artwork{flex-basis:36px;width:36px;height:36px;border-radius:5px}.music-tray{gap:4px}.music-tray .music-track{margin-left:2px}}
