@@ -1,5 +1,5 @@
 {
-  "version": "v71",
+  "version": "v72",
   "files": [
     {
       "file": ".gitattributes",
@@ -22,9 +22,14 @@
       "sha256": "3f91e378ac339727f256a63322f1687175df64a616e3b0358a5d1bd031e3268d"
     },
     {
+      "file": "README.md",
+      "bytes": 2230,
+      "sha256": "f6e829db0fb159684ad2dc04e17b3b5ab71424eaf7aa613af698ceb08f7f65fb"
+    },
+    {
       "file": "index.html",
-      "bytes": 8261346,
-      "sha256": "08a2ad3500b782b3ab3fc733d3ec14c740b5bf09947ca55ad3c19ea0507e54ea"
+      "bytes": 8261285,
+      "sha256": "29d3bdd9198a6c8bb57f98e20b82a2354617282bf732da66d22f915c10d709f1"
     },
     {
       "file": "lib/music-service.mjs",
@@ -37,14 +42,14 @@
       "sha256": "a237e65d8cc7c5b00008db5977b28e525caeffadfee0808408034f8959c6de20"
     },
     {
-      "file": "netlify/functions/music.mjs",
-      "bytes": 301,
-      "sha256": "e86d9fb4abeaf0c389c6efb265ed12f07474c14e5c4aa40276919a13db89e0e9"
-    },
-    {
       "file": "netlify.toml",
       "bytes": 422,
       "sha256": "172a2c94d65a8dca71c3334a12b8ca08152a128d8deffe71023fd1e1c081841b"
+    },
+    {
+      "file": "netlify/functions/music.mjs",
+      "bytes": 301,
+      "sha256": "e86d9fb4abeaf0c389c6efb265ed12f07474c14e5c4aa40276919a13db89e0e9"
     },
     {
       "file": "package-lock.json",
@@ -278,8 +283,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 8261434,
-      "sha256": "ed8bd5dd5fb4ccb7b6845d74526bf175fde1b64d6212c8706c0f40652c8b4cd8"
+      "bytes": 8261373,
+      "sha256": "8e6f1a9a189c3c6d16e1fd62fd8ace346e15a0991c0959dcecbf3a2022cb2648"
     },
     {
       "file": "public/rift-protocol.html",
@@ -287,9 +292,9 @@
       "sha256": "b6d3937449f07a30d6f0156edd13f82e12fd82566f4b3e60a5b5af918b437d70"
     },
     {
-      "file": "README.md",
-      "bytes": 2230,
-      "sha256": "ee97db3f11536d82510719f48c8e8f744f7c99e676a29f44a8a7a217bcde8c01"
+      "file": "src/site/RIFT_PROTOCOL_面试讲稿.md",
+      "bytes": 12553,
+      "sha256": "40b014fcc5240498527ff9017fe47b1ce043d13b0ba9ef12383318d761e90550"
     },
     {
       "file": "src/site/assets/campus-parking/parking-workspace.png",
@@ -513,18 +518,13 @@
     },
     {
       "file": "src/site/index.html",
-      "bytes": 2264994,
-      "sha256": "91a53f535f556a5f204a8981c876912b3300fcaa38c72daf7dfcd74f6a7ed2ae"
+      "bytes": 2264933,
+      "sha256": "2a35e2cfc5580b1b887f125034d19a5b16498747d6a85377c4f66da1aec85818"
     },
     {
       "file": "src/site/rift-protocol.html",
       "bytes": 7398,
       "sha256": "af1288c2857647e04797a9916868d0603662ef307486f3107af65d4493c3f65b"
-    },
-    {
-      "file": "src/site/RIFT_PROTOCOL_面试讲稿.md",
-      "bytes": 12553,
-      "sha256": "40b014fcc5240498527ff9017fe47b1ce043d13b0ba9ef12383318d761e90550"
     },
     {
       "file": "tests/music-service.test.mjs",
