@@ -1,5 +1,5 @@
 {
-  "version": "v74",
+  "version": "v75",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2230,
-      "sha256": "fc2318e38032e4cc103b2308a0aa216adf7dbb4a21f1f216840c7a57e3ef1816"
+      "sha256": "318641157ebe27b3a8a7fc2665e26c1d0d1cffada9a67f2074bcb5b7a8eff16d"
     },
     {
       "file": "index.html",
-      "bytes": 8281991,
-      "sha256": "4472d3bb118d03784bef4482db77d413e79630752aa3685b02d88918efb2724e"
+      "bytes": 9103556,
+      "sha256": "521bdff499f10f3f7f21e8701e6d412db5f2bfefe29f6c5249d504899bcdfbd3"
     },
     {
       "file": "lib/music-service.mjs",
@@ -120,6 +120,31 @@
       "file": "public/assets/home-music.js",
       "bytes": 1548,
       "sha256": "e8e0e0d545953649d1bb6d6c6f4e188f7ba51f3e2671234b186b2d767e346054"
+    },
+    {
+      "file": "public/assets/internship-photos.css",
+      "bytes": 1319,
+      "sha256": "f1626c93b31239594dcebdf544896359bd2ea0d0e3af6d05222b3944804c85ec"
+    },
+    {
+      "file": "public/assets/internship-photos.js",
+      "bytes": 968,
+      "sha256": "f1a2b20ce0b92dd1109d8bbcba62248cc5058448d9205f06e390cb65cb96594f"
+    },
+    {
+      "file": "public/assets/internship/cafeteria-meal.jpg",
+      "bytes": 138549,
+      "sha256": "547b2d2292426fd4be9a5f532103c1bd7433f72c435b03db1742f21ab386bc39"
+    },
+    {
+      "file": "public/assets/internship/evening-skyline.jpg",
+      "bytes": 192976,
+      "sha256": "b689d1734c0f0a95dae8580dfdef1a4b402710d637b5e3ff5bedad8452cc8192"
+    },
+    {
+      "file": "public/assets/internship/rainy-campus.jpg",
+      "bytes": 281752,
+      "sha256": "c129aad9081c6eb727695de579621e7369109d34c7f564687dc66484f2762707"
     },
     {
       "file": "public/assets/journal.css",
@@ -248,8 +273,8 @@
     },
     {
       "file": "public/blog-internship-notes.html",
-      "bytes": 19439,
-      "sha256": "b752d5a2fcccd597d646831e745050e6179b366a8c95f722ab5c4ee2617633ef"
+      "bytes": 20873,
+      "sha256": "5b30bfa4ad364e6241fb536d0c246be962849164e72642b06cb39fe7cc6aca16"
     },
     {
       "file": "public/blog-numerical-design-learning.html",
@@ -288,8 +313,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 8282079,
-      "sha256": "3886607ab357aa4fd9b4ae409bbc247e42f89f8cf1bfe5691814f146f60d8711"
+      "bytes": 9103644,
+      "sha256": "2c84d0f43e1c5d0de1c2ec8cfcc912bf50d6ba8d08fb3cd9a597a3dfc0cb223a"
     },
     {
       "file": "public/rift-protocol.html",
@@ -360,6 +385,31 @@
       "file": "src/site/assets/home-music.js",
       "bytes": 1548,
       "sha256": "e8e0e0d545953649d1bb6d6c6f4e188f7ba51f3e2671234b186b2d767e346054"
+    },
+    {
+      "file": "src/site/assets/internship-photos.css",
+      "bytes": 1319,
+      "sha256": "f1626c93b31239594dcebdf544896359bd2ea0d0e3af6d05222b3944804c85ec"
+    },
+    {
+      "file": "src/site/assets/internship-photos.js",
+      "bytes": 968,
+      "sha256": "f1a2b20ce0b92dd1109d8bbcba62248cc5058448d9205f06e390cb65cb96594f"
+    },
+    {
+      "file": "src/site/assets/internship/cafeteria-meal.jpg",
+      "bytes": 138549,
+      "sha256": "547b2d2292426fd4be9a5f532103c1bd7433f72c435b03db1742f21ab386bc39"
+    },
+    {
+      "file": "src/site/assets/internship/evening-skyline.jpg",
+      "bytes": 192976,
+      "sha256": "b689d1734c0f0a95dae8580dfdef1a4b402710d637b5e3ff5bedad8452cc8192"
+    },
+    {
+      "file": "src/site/assets/internship/rainy-campus.jpg",
+      "bytes": 281752,
+      "sha256": "c129aad9081c6eb727695de579621e7369109d34c7f564687dc66484f2762707"
     },
     {
       "file": "src/site/assets/journal.css",
@@ -488,8 +538,8 @@
     },
     {
       "file": "src/site/blog-internship-notes.html",
-      "bytes": 19281,
-      "sha256": "204a3ef718de5dab6ab7ecd3108d089d2d0515c7deb76411e1a3917eadebe3bf"
+      "bytes": 20715,
+      "sha256": "a95905f43aed9cc61b6c724c479c4b4e7312a1952fee810700b6b237a2090cf5"
     },
     {
       "file": "src/site/blog-numerical-design-learning.html",
