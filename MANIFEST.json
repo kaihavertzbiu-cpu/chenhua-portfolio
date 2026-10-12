@@ -1,5 +1,5 @@
 {
-  "version": "v81",
+  "version": "v82",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2420,
-      "sha256": "5fc1a9052584920897cf82665577eb5f5e37c8f2eca05a267fda120de2473286"
+      "bytes": 2465,
+      "sha256": "4b57b43bdd7e1c678345fc1a68de813add0522e146424ca5ccd88fceabe0b437"
     },
     {
       "file": "index.html",
-      "bytes": 11068429,
-      "sha256": "47ea99d3ee4350be6415bf561bde244202bca336f860718e2e873a386e137dae"
+      "bytes": 11334577,
+      "sha256": "59152151bfd89521b042bc34e1a8c195a8dd5b475401940f31862839d80242a7"
     },
     {
       "file": "lib/music-service.mjs",
@@ -237,6 +237,11 @@
       "sha256": "bc19bc7ea26ad734cde1263762e9047bf5a7ebc7cabefe1373944908d2b71652"
     },
     {
+      "file": "public/assets/two-worlds/rock-damage-formula.jpg",
+      "bytes": 181399,
+      "sha256": "1ef31741a338f5b7b66cfa0a73ab6113f00f29c4914dff2ecaa6eabfac536e9d"
+    },
+    {
       "file": "public/assets/vendor/APlayer.LICENSE.txt",
       "bytes": 1121,
       "sha256": "6296c34fc24aedd4a120213620015a4feb0b16a571f3b3f640ac200e90bfdfae"
@@ -297,9 +302,14 @@
       "sha256": "c5f23fac4e64368c9c92e05edd4eae2d3035b6dcff618ecbf6b2fc7d78f54c01"
     },
     {
+      "file": "public/blog-two-worlds.html",
+      "bytes": 20986,
+      "sha256": "f1f3a5cfced57a0d075723c509d1034734d15ce6219a98b193b26f98a81998b1"
+    },
+    {
       "file": "public/blog.html",
-      "bytes": 16397,
-      "sha256": "757ec3834c897e7b67e46b0fffdea04160cad39e78162bbda2140331b231964b"
+      "bytes": 16722,
+      "sha256": "8c036379caf84b07c0f75b19b43ab5572241b31425181c816100397074d489d3"
     },
     {
       "file": "public/campus-parking.html",
@@ -318,8 +328,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 11068517,
-      "sha256": "7bab4443fbf7270feb0f84d150fb6cc416c6738d92b01530665ee0be8cda3e79"
+      "bytes": 11334665,
+      "sha256": "4b1a96a280a25922ca0fbcc3d09107584dbd41937f5d852551c2bc687d49fbb7"
     },
     {
       "file": "public/rift-protocol.html",
@@ -507,6 +517,11 @@
       "sha256": "bc19bc7ea26ad734cde1263762e9047bf5a7ebc7cabefe1373944908d2b71652"
     },
     {
+      "file": "src/site/assets/two-worlds/rock-damage-formula.jpg",
+      "bytes": 181399,
+      "sha256": "1ef31741a338f5b7b66cfa0a73ab6113f00f29c4914dff2ecaa6eabfac536e9d"
+    },
+    {
       "file": "src/site/assets/vendor/APlayer.LICENSE.txt",
       "bytes": 1121,
       "sha256": "6296c34fc24aedd4a120213620015a4feb0b16a571f3b3f640ac200e90bfdfae"
@@ -567,9 +582,14 @@
       "sha256": "88eb638cdfdeb038a552c67b73d1917d94a797dea9d224a714c8ea7bfff086af"
     },
     {
+      "file": "src/site/blog-two-worlds.html",
+      "bytes": 20834,
+      "sha256": "4b26da6c749d6a5787ae2999af68ed9910eb0bad378e77f1cc9b1bfd08737838"
+    },
+    {
       "file": "src/site/blog.html",
-      "bytes": 16256,
-      "sha256": "e7ef9de54ed252e460f2c6041904925ab3395db74687b7006ecacaac10b97146"
+      "bytes": 16581,
+      "sha256": "7bad691ae9940b119cfe26306fb155532c46b1bc33502bd19b9ef008e6f3c334"
     },
     {
       "file": "src/site/campus-parking.html",
