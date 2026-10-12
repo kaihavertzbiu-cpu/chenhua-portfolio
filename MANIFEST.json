@@ -1,5 +1,5 @@
 {
-  "version": "v76",
+  "version": "v77",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2230,
-      "sha256": "562c117c1965440216b4681bca38ce0473a2820044f3ee22ab9baf5b43a71e92"
+      "sha256": "af3d0f16a45e28386527dac9a996a6a2fc573ecd9a2df733ec4ca2ed87e96108"
     },
     {
       "file": "index.html",
-      "bytes": 9103037,
-      "sha256": "96b3987ccbd569738e4bf7116ba4fab130c766c7018687fd01f5c2bca5d24f43"
+      "bytes": 9256625,
+      "sha256": "c1e7cad93590d2a4b46ddfdf5763aad977b75fb46c1fb58ae7cf9d5bc1d9746f"
     },
     {
       "file": "lib/music-service.mjs",
@@ -60,6 +60,16 @@
       "file": "package.json",
       "bytes": 245,
       "sha256": "0645245e6460e8c47d4f571aabbfabfd3eb10d0064586f0735c004028ef51d6f"
+    },
+    {
+      "file": "public/assets/article-photos.css",
+      "bytes": 1083,
+      "sha256": "ac552234d8d8134a80a2a37f59dcfc03a775a1dbc6e6fced43f21f774a7adf59"
+    },
+    {
+      "file": "public/assets/article-photos.js",
+      "bytes": 840,
+      "sha256": "fdeeb65bfc28115df8e5c8eb61eed94e98521e62e25b8f07f8fc8a9bedd797bd"
     },
     {
       "file": "public/assets/campus-parking/parking-workspace.png",
@@ -150,6 +160,11 @@
       "file": "public/assets/journal.css",
       "bytes": 1887,
       "sha256": "a30bcfe7f46f110fd592069476bd1878bacb92f8562e79aa420491c11fc919db"
+    },
+    {
+      "file": "public/assets/lol/experience-table.png",
+      "bytes": 97580,
+      "sha256": "2ad5a8a7251f05ddbb3861483f159dfdf3935c4791922eb143a2a575ac0595f5"
     },
     {
       "file": "public/assets/music-host.js",
@@ -277,6 +292,11 @@
       "sha256": "a5f731bf53af3e2f1eb27530d12e92e7607277505ab59d4247f6ab0129c63d7e"
     },
     {
+      "file": "public/blog-lol-numerical-design.html",
+      "bytes": 19810,
+      "sha256": "ee0763717dbea76475d73b4fc5cac80f6101b7b1d306f749ee3dd28111d30df8"
+    },
+    {
       "file": "public/blog-numerical-design-learning.html",
       "bytes": 19642,
       "sha256": "66caa312ac936999085847ee4920d1cc03f5638701ddfb45e69946e283485df8"
@@ -293,8 +313,8 @@
     },
     {
       "file": "public/blog.html",
-      "bytes": 20489,
-      "sha256": "3ff14048fb552a52737db3a5a32033a5260d10043d14fb639dd59a3bb14b113f"
+      "bytes": 21013,
+      "sha256": "93193f5385cf25e692a121116d5acf558a01da02c3a976d582ac800f50b8e28b"
     },
     {
       "file": "public/campus-parking.html",
@@ -313,8 +333,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 9103125,
-      "sha256": "da0f8eddea7bd2e31cedbb6ac2efe97637e2630ccf750b1e91aa5b1828d10126"
+      "bytes": 9256713,
+      "sha256": "1c71607554d17d39d8af14c47f6b3c0515ddb9c157c600558a36102dacbfa8f6"
     },
     {
       "file": "public/rift-protocol.html",
@@ -325,6 +345,16 @@
       "file": "src/site/RIFT_PROTOCOL_面试讲稿.md",
       "bytes": 12553,
       "sha256": "40b014fcc5240498527ff9017fe47b1ce043d13b0ba9ef12383318d761e90550"
+    },
+    {
+      "file": "src/site/assets/article-photos.css",
+      "bytes": 1083,
+      "sha256": "ac552234d8d8134a80a2a37f59dcfc03a775a1dbc6e6fced43f21f774a7adf59"
+    },
+    {
+      "file": "src/site/assets/article-photos.js",
+      "bytes": 840,
+      "sha256": "fdeeb65bfc28115df8e5c8eb61eed94e98521e62e25b8f07f8fc8a9bedd797bd"
     },
     {
       "file": "src/site/assets/campus-parking/parking-workspace.png",
@@ -415,6 +445,11 @@
       "file": "src/site/assets/journal.css",
       "bytes": 1887,
       "sha256": "a30bcfe7f46f110fd592069476bd1878bacb92f8562e79aa420491c11fc919db"
+    },
+    {
+      "file": "src/site/assets/lol/experience-table.png",
+      "bytes": 97580,
+      "sha256": "2ad5a8a7251f05ddbb3861483f159dfdf3935c4791922eb143a2a575ac0595f5"
     },
     {
       "file": "src/site/assets/music-host.js",
@@ -542,6 +577,11 @@
       "sha256": "c3d7bba19796da38e8442d182ae7710a946447580760974fdbea37a562dcfa6b"
     },
     {
+      "file": "src/site/blog-lol-numerical-design.html",
+      "bytes": 19648,
+      "sha256": "fa9fc836fe12803797384c631eebb3c73aebfb15e722074b2da04c35319f38d6"
+    },
+    {
       "file": "src/site/blog-numerical-design-learning.html",
       "bytes": 19475,
       "sha256": "35e3caf9f34acd9e07b3732c759a77d5b213b3592c88817886f8e917d719713d"
@@ -558,8 +598,8 @@
     },
     {
       "file": "src/site/blog.html",
-      "bytes": 20348,
-      "sha256": "b3372904762508539cdf5b278721a600e989effabbfa295d87fcd50102449191"
+      "bytes": 20872,
+      "sha256": "ddc1edbe2b7d97baec5563a2e95426a8d1e97c50e33753bf506524f87469ca91"
     },
     {
       "file": "src/site/campus-parking.html",
