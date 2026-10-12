@@ -1,5 +1,5 @@
 {
-  "version": "v78",
+  "version": "v79",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2230,
-      "sha256": "08aae58f98b24169eb6bfc7421b4c0fc58f2c4e2b446cacb84588d006bc9bb8b"
+      "sha256": "26eb7fc6e56de735a46f759533a5b77e59e65f833e70b74a5106b8a44ca80ff8"
     },
     {
       "file": "index.html",
-      "bytes": 9256683,
-      "sha256": "941e1a827c8b7d99c8a092e9fb9718f3d795a26a5c843db392b5210ae170c757"
+      "bytes": 9469030,
+      "sha256": "66b70b45b3eda52322a44ded17dc60f5de293b502bd228ff5c8237d086e16c2f"
     },
     {
       "file": "lib/music-service.mjs",
@@ -155,6 +155,16 @@
       "file": "public/assets/internship/rainy-campus.jpg",
       "bytes": 281752,
       "sha256": "c129aad9081c6eb727695de579621e7369109d34c7f564687dc66484f2762707"
+    },
+    {
+      "file": "public/assets/jcc/experience-table.png",
+      "bytes": 57051,
+      "sha256": "79223ea244b0204743180f1f0a59eb53088dc5f212153ef2848d11f072ba2fed"
+    },
+    {
+      "file": "public/assets/jcc/rank.jpg",
+      "bytes": 84115,
+      "sha256": "72c5a7fae7ce8dc9b07797a0da3ebe775cceecb78b6cdd85e3d42dddc9795a06"
     },
     {
       "file": "public/assets/journal.css",
@@ -292,6 +302,11 @@
       "sha256": "a5f731bf53af3e2f1eb27530d12e92e7607277505ab59d4247f6ab0129c63d7e"
     },
     {
+      "file": "public/blog-jcc.html",
+      "bytes": 20626,
+      "sha256": "b54d3254b9161a916d5ff17437f4f35a553ccc4c774aec51060aa8d3a12ae049"
+    },
+    {
       "file": "public/blog-lol-numerical-design.html",
       "bytes": 19868,
       "sha256": "94c40fed07ad789c65382aa2a0c2c6e2c0e76e6a5bc58e4533d941f628315d0c"
@@ -313,8 +328,8 @@
     },
     {
       "file": "public/blog.html",
-      "bytes": 21013,
-      "sha256": "93193f5385cf25e692a121116d5acf558a01da02c3a976d582ac800f50b8e28b"
+      "bytes": 21445,
+      "sha256": "9232756919ace4236e3472d5bc3fd51c9aaf3b7960832d5438664b91790c325a"
     },
     {
       "file": "public/campus-parking.html",
@@ -333,8 +348,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 9256771,
-      "sha256": "13afe8defcd8f901713827655e902c73e9ff1ccdfb304205f9a0ef3e67d901c5"
+      "bytes": 9469118,
+      "sha256": "b5c84e17db0e63fd4297436240d9ae3bb0b022ef0d36c365fe92a3969159e20c"
     },
     {
       "file": "public/rift-protocol.html",
@@ -440,6 +455,16 @@
       "file": "src/site/assets/internship/rainy-campus.jpg",
       "bytes": 281752,
       "sha256": "c129aad9081c6eb727695de579621e7369109d34c7f564687dc66484f2762707"
+    },
+    {
+      "file": "src/site/assets/jcc/experience-table.png",
+      "bytes": 57051,
+      "sha256": "79223ea244b0204743180f1f0a59eb53088dc5f212153ef2848d11f072ba2fed"
+    },
+    {
+      "file": "src/site/assets/jcc/rank.jpg",
+      "bytes": 84115,
+      "sha256": "72c5a7fae7ce8dc9b07797a0da3ebe775cceecb78b6cdd85e3d42dddc9795a06"
     },
     {
       "file": "src/site/assets/journal.css",
@@ -577,6 +602,11 @@
       "sha256": "c3d7bba19796da38e8442d182ae7710a946447580760974fdbea37a562dcfa6b"
     },
     {
+      "file": "src/site/blog-jcc.html",
+      "bytes": 20481,
+      "sha256": "692dd01a63a1f0da63ae5c7ce58e4d002e3553f3d2c4355b0f02be63d17f087b"
+    },
+    {
       "file": "src/site/blog-lol-numerical-design.html",
       "bytes": 19706,
       "sha256": "a26824b077ff11c31571996ec1dd4dc01d8c2b48018483987bab61efc6ef2538"
@@ -598,8 +628,8 @@
     },
     {
       "file": "src/site/blog.html",
-      "bytes": 20872,
-      "sha256": "ddc1edbe2b7d97baec5563a2e95426a8d1e97c50e33753bf506524f87469ca91"
+      "bytes": 21304,
+      "sha256": "f8c9bb3c92f4605a0256557917add28002551ace71b8492ce2466bc29deec4dc"
     },
     {
       "file": "src/site/campus-parking.html",
