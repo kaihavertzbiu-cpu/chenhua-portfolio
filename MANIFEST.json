@@ -1,5 +1,5 @@
 {
-  "version": "v79",
+  "version": "v80",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2230,
-      "sha256": "26eb7fc6e56de735a46f759533a5b77e59e65f833e70b74a5106b8a44ca80ff8"
+      "bytes": 2408,
+      "sha256": "af30a9b7c27c2517edbdb99ea38b95c99cf0c7b122793e19e00d2484fddc7877"
     },
     {
       "file": "index.html",
-      "bytes": 9469030,
-      "sha256": "66b70b45b3eda52322a44ded17dc60f5de293b502bd228ff5c8237d086e16c2f"
+      "bytes": 8820385,
+      "sha256": "0f1a1d9a069284ef47d32f905fb3097846f15c99f6faf3aa6bfe86c9ac923ac6"
     },
     {
       "file": "lib/music-service.mjs",
@@ -263,38 +263,13 @@
     },
     {
       "file": "public/assets/writing.css",
-      "bytes": 10074,
-      "sha256": "190d3909def904893bc011fa4e55cc1d0ad0be0f30683c1073900b329e7d35b2"
+      "bytes": 10196,
+      "sha256": "47dbd75841a950566c0f6da7d8e3a08fa53aeca4f9dc2f025ccd22864c09dabe"
     },
     {
       "file": "public/assets/writing.js",
       "bytes": 2609,
       "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
-    },
-    {
-      "file": "public/blog-2026-industry-numbers.html",
-      "bytes": 18859,
-      "sha256": "422f2a9173a943ad3ecc7361b2200b881ae054c4fd9e936bc12b42a08998e725"
-    },
-    {
-      "file": "public/blog-ai-games-thoughts.html",
-      "bytes": 18693,
-      "sha256": "b7f2c2100eb5d6543811d8c16a9e345d007c640f56bf3954f1526a226043d685"
-    },
-    {
-      "file": "public/blog-first-action-rpg-notes.html",
-      "bytes": 18980,
-      "sha256": "facfc8576221e78e6d749724128771d5b99da331a940909347c9bfe18875cea0"
-    },
-    {
-      "file": "public/blog-first-minute.html",
-      "bytes": 18866,
-      "sha256": "ccf337736cb442977dce5775a7d9550f6376434a82ac983dec84142ee3f60d94"
-    },
-    {
-      "file": "public/blog-first-move-cards.html",
-      "bytes": 19690,
-      "sha256": "627334397d4338502b062cea7575c10c3a3bcacbfe768a69217300f5188efed6"
     },
     {
       "file": "public/blog-internship-notes.html",
@@ -312,24 +287,9 @@
       "sha256": "94c40fed07ad789c65382aa2a0c2c6e2c0e76e6a5bc58e4533d941f628315d0c"
     },
     {
-      "file": "public/blog-numerical-design-learning.html",
-      "bytes": 19642,
-      "sha256": "66caa312ac936999085847ee4920d1cc03f5638701ddfb45e69946e283485df8"
-    },
-    {
-      "file": "public/blog-rock-kingdom-world.html",
-      "bytes": 18608,
-      "sha256": "1c43778bdbf657836501807a12bb915619d66a7d98fee70d39a091047ff3ffcc"
-    },
-    {
-      "file": "public/blog-ugc-ecosystem.html",
-      "bytes": 18633,
-      "sha256": "996453d0f378b18bd9e3e64a24190a37cdf6e37fc7c845a00de54fada91d368f"
-    },
-    {
       "file": "public/blog.html",
-      "bytes": 21445,
-      "sha256": "9232756919ace4236e3472d5bc3fd51c9aaf3b7960832d5438664b91790c325a"
+      "bytes": 16070,
+      "sha256": "4fbd511d40ab34c454ea1e12dc9b790cb7082fa22efdb936e49bd315da8873d5"
     },
     {
       "file": "public/campus-parking.html",
@@ -343,13 +303,13 @@
     },
     {
       "file": "public/first-move.html",
-      "bytes": 10962,
-      "sha256": "d37e40c77cef979096cf8e95932a16f280f35ba7d94cac05d483af2e5a86a2f5"
+      "bytes": 10866,
+      "sha256": "a43750d5b7c0443dc0ff95e9e5d6062e51af8c2afc72a065f146529351f2f328"
     },
     {
       "file": "public/index.html",
-      "bytes": 9469118,
-      "sha256": "b5c84e17db0e63fd4297436240d9ae3bb0b022ef0d36c365fe92a3969159e20c"
+      "bytes": 8820473,
+      "sha256": "534a9adbe7828d28e539caa253f63f2dec0ad6323974f43822ed0e8e1a4ec9b2"
     },
     {
       "file": "public/rift-protocol.html",
@@ -563,38 +523,13 @@
     },
     {
       "file": "src/site/assets/writing.css",
-      "bytes": 10074,
-      "sha256": "190d3909def904893bc011fa4e55cc1d0ad0be0f30683c1073900b329e7d35b2"
+      "bytes": 10196,
+      "sha256": "47dbd75841a950566c0f6da7d8e3a08fa53aeca4f9dc2f025ccd22864c09dabe"
     },
     {
       "file": "src/site/assets/writing.js",
       "bytes": 2609,
       "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
-    },
-    {
-      "file": "src/site/blog-2026-industry-numbers.html",
-      "bytes": 18696,
-      "sha256": "55f26e14d261b1a86b94a0ab7c0379b477cb83e314aaa0b2f90888963014d4f8"
-    },
-    {
-      "file": "src/site/blog-ai-games-thoughts.html",
-      "bytes": 18534,
-      "sha256": "c57246b2e0524eedf041f660ae5af082b1a8bc0f87d2c29adaf9d5e83c6ed19f"
-    },
-    {
-      "file": "src/site/blog-first-action-rpg-notes.html",
-      "bytes": 18816,
-      "sha256": "a225fe7f3548d74b1b26e270115bdcc09ec75d8e202bc98bad27b702032953e2"
-    },
-    {
-      "file": "src/site/blog-first-minute.html",
-      "bytes": 18712,
-      "sha256": "4fbd148830838bb1064549d09bc24f7f1301d68221da833f0f802332823628bd"
-    },
-    {
-      "file": "src/site/blog-first-move-cards.html",
-      "bytes": 19532,
-      "sha256": "f72da7922a496be6fdc449ee0b63de6f875ff57aab720b4c97ca98a1db747a02"
     },
     {
       "file": "src/site/blog-internship-notes.html",
@@ -612,24 +547,9 @@
       "sha256": "a26824b077ff11c31571996ec1dd4dc01d8c2b48018483987bab61efc6ef2538"
     },
     {
-      "file": "src/site/blog-numerical-design-learning.html",
-      "bytes": 19475,
-      "sha256": "35e3caf9f34acd9e07b3732c759a77d5b213b3592c88817886f8e917d719713d"
-    },
-    {
-      "file": "src/site/blog-rock-kingdom-world.html",
-      "bytes": 18448,
-      "sha256": "ca6cc01058018e6f4907a9f66a01130d21da6065b19b66acd1d9b3c4e152d5cf"
-    },
-    {
-      "file": "src/site/blog-ugc-ecosystem.html",
-      "bytes": 18478,
-      "sha256": "ef2fa37e9bc53a1960fe2e8e66f51d9f5648366a2451ecdab2cb8ae594060169"
-    },
-    {
       "file": "src/site/blog.html",
-      "bytes": 21304,
-      "sha256": "f8c9bb3c92f4605a0256557917add28002551ace71b8492ce2466bc29deec4dc"
+      "bytes": 15929,
+      "sha256": "c1cf906719b4ef2c9ae3965b6caa85dee5d1c5b3fe97a01063611f12907ea390"
     },
     {
       "file": "src/site/campus-parking.html",
@@ -643,13 +563,13 @@
     },
     {
       "file": "src/site/first-move.html",
-      "bytes": 10815,
-      "sha256": "ec279e5c808bb70c12fb8f44dd884a43cd419acf00fc6c621a8249d2bc4cdbd2"
+      "bytes": 10719,
+      "sha256": "8b7d3b992cb6b7a22929a678a376463c22fe635a6171c648db6e0f63cf43b524"
     },
     {
       "file": "src/site/index.html",
-      "bytes": 2264675,
-      "sha256": "067860a5af2d39d0f1aa70fad63c72b9185ceaa88524057ae46ae249b154d3f5"
+      "bytes": 2264319,
+      "sha256": "a5896a89991ce830a7e87be0895d3ba78bce69490975440fd30ae11fb21715b9"
     },
     {
       "file": "src/site/rift-protocol.html",

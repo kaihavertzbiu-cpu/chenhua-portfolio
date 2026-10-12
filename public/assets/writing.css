@@ -54,3 +54,6 @@
 .record-player>.record-play-symbol{top:125px;bottom:auto;border:0;padding:0;cursor:pointer}
 .record-player.is-loading>.record-play-symbol{opacity:.5}
 @media(max-width:760px){.record-player>.record-play-symbol{top:78px}}
+
+/* Article lists show dates and titles only. */
+.entry-copy .entry-meta{color:#8b8178}.entry-copy h3{margin-bottom:0}
