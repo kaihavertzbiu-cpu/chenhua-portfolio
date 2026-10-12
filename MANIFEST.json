@@ -1,5 +1,5 @@
 {
-  "version": "v82",
+  "version": "v83",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2465,
-      "sha256": "4b57b43bdd7e1c678345fc1a68de813add0522e146424ca5ccd88fceabe0b437"
+      "sha256": "a33cae48d8ceb0ee10e255d1f919a9875d45ee9ecd9c1a8673ed6b01c81b1649"
     },
     {
       "file": "index.html",
-      "bytes": 11334577,
-      "sha256": "59152151bfd89521b042bc34e1a8c195a8dd5b475401940f31862839d80242a7"
+      "bytes": 11334747,
+      "sha256": "cab711421e235b634154bdfb91ed15feac5ae2a63078c1e2224e396692d8f05b"
     },
     {
       "file": "lib/music-service.mjs",
@@ -303,13 +303,13 @@
     },
     {
       "file": "public/blog-two-worlds.html",
-      "bytes": 20986,
-      "sha256": "f1f3a5cfced57a0d075723c509d1034734d15ce6219a98b193b26f98a81998b1"
+      "bytes": 21038,
+      "sha256": "d3c8ebf0d5db620cff2e3249590c18eca13a2a0c24d13aaa7336c5cc3852d0bc"
     },
     {
       "file": "public/blog.html",
-      "bytes": 16722,
-      "sha256": "8c036379caf84b07c0f75b19b43ab5572241b31425181c816100397074d489d3"
+      "bytes": 16794,
+      "sha256": "c624498e5703a6489c429ba86be500f3f44c866033a024077dded2e7e9b61e7e"
     },
     {
       "file": "public/campus-parking.html",
@@ -328,8 +328,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 11334665,
-      "sha256": "4b1a96a280a25922ca0fbcc3d09107584dbd41937f5d852551c2bc687d49fbb7"
+      "bytes": 11334835,
+      "sha256": "4b7e430253e26f227db37015b8680c8b6d7b4843158dc04142d62d17b6af898a"
     },
     {
       "file": "public/rift-protocol.html",
@@ -583,13 +583,13 @@
     },
     {
       "file": "src/site/blog-two-worlds.html",
-      "bytes": 20834,
-      "sha256": "4b26da6c749d6a5787ae2999af68ed9910eb0bad378e77f1cc9b1bfd08737838"
+      "bytes": 20886,
+      "sha256": "131303559bad2b0b036850af9344c372e5f1dcb1d5dcd6fa7a3aebc6e6b7b209"
     },
     {
       "file": "src/site/blog.html",
-      "bytes": 16581,
-      "sha256": "7bad691ae9940b119cfe26306fb155532c46b1bc33502bd19b9ef008e6f3c334"
+      "bytes": 16653,
+      "sha256": "7a31e0977cfdccb11fd4aae28ce2193b9b2e7d04ebcb94750cc3e17f44743532"
     },
     {
       "file": "src/site/campus-parking.html",
