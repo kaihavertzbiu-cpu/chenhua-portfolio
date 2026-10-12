@@ -1,5 +1,5 @@
 {
-  "version": "v73",
+  "version": "v74",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2230,
-      "sha256": "fc3daa7c089d512cb35334a26b24be47cc64f503e4f8b3333739ca031d545e11"
+      "sha256": "fc2318e38032e4cc103b2308a0aa216adf7dbb4a21f1f216840c7a57e3ef1816"
     },
     {
       "file": "index.html",
-      "bytes": 8261017,
-      "sha256": "aa3bd98ff1c9a61b550fa1b2ca4d16396904124feaeee42656f28c4c6824d46a"
+      "bytes": 8281991,
+      "sha256": "4472d3bb118d03784bef4482db77d413e79630752aa3685b02d88918efb2724e"
     },
     {
       "file": "lib/music-service.mjs",
@@ -247,6 +247,11 @@
       "sha256": "627334397d4338502b062cea7575c10c3a3bcacbfe768a69217300f5188efed6"
     },
     {
+      "file": "public/blog-internship-notes.html",
+      "bytes": 19439,
+      "sha256": "b752d5a2fcccd597d646831e745050e6179b366a8c95f722ab5c4ee2617633ef"
+    },
+    {
       "file": "public/blog-numerical-design-learning.html",
       "bytes": 19642,
       "sha256": "66caa312ac936999085847ee4920d1cc03f5638701ddfb45e69946e283485df8"
@@ -263,8 +268,8 @@
     },
     {
       "file": "public/blog.html",
-      "bytes": 19986,
-      "sha256": "747c5dbfe0bc96db5d490e64e0f83e321765c5fbf997ba8c7b60e50ddcf24c57"
+      "bytes": 20489,
+      "sha256": "3ff14048fb552a52737db3a5a32033a5260d10043d14fb639dd59a3bb14b113f"
     },
     {
       "file": "public/campus-parking.html",
@@ -283,8 +288,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 8261105,
-      "sha256": "120378f253c97c3766c824900e953ef6bf275a23b930c5bccfc30cde619661cb"
+      "bytes": 8282079,
+      "sha256": "3886607ab357aa4fd9b4ae409bbc247e42f89f8cf1bfe5691814f146f60d8711"
     },
     {
       "file": "public/rift-protocol.html",
@@ -482,6 +487,11 @@
       "sha256": "f72da7922a496be6fdc449ee0b63de6f875ff57aab720b4c97ca98a1db747a02"
     },
     {
+      "file": "src/site/blog-internship-notes.html",
+      "bytes": 19281,
+      "sha256": "204a3ef718de5dab6ab7ecd3108d089d2d0515c7deb76411e1a3917eadebe3bf"
+    },
+    {
       "file": "src/site/blog-numerical-design-learning.html",
       "bytes": 19475,
       "sha256": "35e3caf9f34acd9e07b3732c759a77d5b213b3592c88817886f8e917d719713d"
@@ -498,8 +508,8 @@
     },
     {
       "file": "src/site/blog.html",
-      "bytes": 19845,
-      "sha256": "f7f7b5a5657e34e8d5853d3915ae223497392cff95dbfc34871709827eeed2d6"
+      "bytes": 20348,
+      "sha256": "b3372904762508539cdf5b278721a600e989effabbfa295d87fcd50102449191"
     },
     {
       "file": "src/site/campus-parking.html",

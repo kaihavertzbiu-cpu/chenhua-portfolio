@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head><script>if(window===window.parent){location.replace("index.html#page=blog-internship-notes.html&anchor="+encodeURIComponent(location.hash.slice(1)))}</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>陈华｜实习小录</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Noto+Serif+SC:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --bg:#f6f3ee;
+  --bg-2:#fbfaf7;
+  --card:#ffffff;
+  --line:#e7dfd3;
+  --line-2:#efe8de;
+  --text:#1f1b17;
+  --muted:#6d675f;
+  --accent:#8f1f2a;
+  --accent-2:#b88443;
+  --radius:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
+a{text-decoration:none;color:inherit} img{max-width:100%;display:block} button{font:inherit}
+.wrap{width:min(1120px,calc(100% - 40px));margin:0 auto}
+.page-glow{display:none}
+.topbar{position:sticky;top:0;z-index:20;background:rgba(246,243,238,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;justify-content:space-between;align-items:center;min-height:72px;gap:18px}
+.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:38px;height:38px;border-radius:10px;background:#fff;border:1px solid var(--line);display:grid;place-items:center;font-weight:800;color:var(--accent)}.brand-title{font-weight:700;font-size:14px}.brand-sub{font-size:12px;color:var(--muted)}
+.nav-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.nav-links a{font-size:14px;color:var(--muted)}.nav-links a:hover{color:var(--text)}.nav-cta{color:var(--accent)!important;font-weight:700}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;padding:72px 0 42px}.eyebrow,.section-kicker,.label-chip,.blog-label{font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.04em;text-transform:uppercase}.hero h1{margin:14px 0 18px;font-family:"Noto Serif SC","PingFang SC",serif;font-size:58px;line-height:1.16;letter-spacing:-.03em;font-weight:700}.hero h1 strong{color:var(--accent)}.hero-text{font-size:17px;line-height:1.95;color:var(--muted);max-width:720px}.hero-pills,.tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.hero-pills span,.tag-row span{font-size:13px;color:#544c44;border:1px solid var(--line);padding:8px 12px;border-radius:999px;background:#fff}.hero-actions,.center-action,.project-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;border-radius:12px;border:1px solid transparent;font-weight:700;transition:.18s ease}.btn:hover{transform:translateY(-1px)}.btn-primary{background:var(--accent);color:#fff}.btn-secondary{background:#fff;border-color:var(--line);color:var(--text)}
+.metric-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}.metric{padding:14px 0;border-top:1px solid var(--line)}.metric strong{display:block;font-size:28px;margin-bottom:4px;font-family:"Noto Serif SC","PingFang SC",serif}.metric span{font-size:13px;color:var(--muted)}
+.portrait-card{padding:0;background:none;border:none;box-shadow:none}.portrait-frame{aspect-ratio:4/5;border-radius:18px;overflow:hidden;background:#ddd}.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:center 30%}.portrait-caption{padding-top:12px}.portrait-name{font-weight:700;font-size:16px}.portrait-role{font-size:13px;color:var(--muted);margin-top:4px}
+.section{padding:54px 0;border-top:1px solid var(--line)}.section-head{max-width:760px;margin-bottom:24px}.section-head h2,.blog-title-main{margin:10px 0 10px;font-family:"Noto Serif SC","PingFang SC",serif;font-size:38px;line-height:1.2}.section-head p{margin:0;color:var(--muted);line-height:1.9}.centered{text-align:center;margin-inline:auto}
+.card{background:transparent;border:1px solid var(--line);border-radius:var(--radius)}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}.about-main,.method-card,.featured-case,.project-card,.blog-card,.blog-article,.soft-card{padding:24px}.about-main h3,.featured-case h3,.project-card h3,.blog-card h3,.blog-article h3{margin:0 0 14px;font-size:26px;font-family:"Noto Serif SC","PingFang SC",serif}.about-main p,.method-card p,.featured-case p,.project-card p,.blog-card p,.blog-article p,.contact-card span,.edu-copy span{color:var(--muted);line-height:1.9}.method-card ol{margin:0;padding-left:18px;color:var(--muted);line-height:1.9}.mini-title{font-size:16px;font-weight:800;margin-bottom:12px}
+.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.edu-card{display:flex;align-items:center;gap:18px;width:100%;padding:20px;background:#fff;cursor:pointer;border:1px solid var(--line);border-radius:var(--radius);text-align:left}.edu-card:hover{border-color:#d9cec0}.edu-logo{width:76px;height:76px;border-radius:18px;background:#fff;border:1px solid var(--line);display:grid;place-items:center;overflow:hidden}.edu-logo img{width:100%;height:100%;object-fit:contain;padding:8px}.edu-copy h3{margin:0 0 8px;font-size:22px;font-family:"Noto Serif SC","PingFang SC",serif}.edu-copy p{margin:0 0 6px;font-weight:600}
+.featured-case{background:#fff}.case-top{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}.case-points{display:grid;gap:12px}.case-points>div{padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fcfbf8}.case-points strong{display:block;margin-bottom:4px}.case-points span{font-size:14px;color:var(--muted)}
+.mindmap-box{margin-top:18px;background:#fff}.mindmap-box summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:18px 22px;font-weight:700}.mindmap-box summary::-webkit-details-marker{display:none}.summary-tip{font-size:13px;color:var(--muted)}.mindmap-wrap{padding:0 18px 18px}.mindmap-wrap img{border:1px solid var(--line);border-radius:16px;background:#fff}
+.analysis-details{display:grid;gap:14px;margin-top:16px}.detail-card{background:#fff}.detail-card summary{list-style:none;cursor:pointer;padding:20px 22px}.detail-card summary::-webkit-details-marker{display:none}.detail-card summary h3{margin:0 0 8px;font-family:"Noto Serif SC","PingFang SC",serif;font-size:24px}.detail-card summary p{margin:0;color:var(--muted)}.detail-body{padding:0 22px 22px}.detail-grid{display:grid;gap:18px}.two-col{grid-template-columns:1fr 1fr}.detail-body h4{margin:0 0 8px;font-size:16px}.detail-body ul{margin:0;padding-left:18px;color:var(--muted);line-height:1.9}.table-shell{margin-top:18px;border:1px solid var(--line);border-radius:14px;overflow:auto;background:#fff}.table-shell table{width:100%;border-collapse:collapse;min-width:640px}.table-shell th,.table-shell td{padding:13px 14px;text-align:left;border-bottom:1px solid #f0ebe3;font-size:14px}.table-shell th{background:#faf7f2;color:#5c534a}.note-box{margin-top:18px;padding:16px 18px;border-radius:14px;background:#fbf6f0;border:1px solid var(--line);line-height:1.9}
+.project-grid,.blog-grid,.blog-list-grid,.contact-grid{display:grid;gap:18px}.project-grid{grid-template-columns:1.1fr .9fr}.blog-grid,.blog-list-grid{grid-template-columns:repeat(3,1fr)}.contact-grid{grid-template-columns:repeat(3,1fr)}.featured-project{background:#fff}.blog-card,.blog-article{background:#fff}.blog-no{font-size:12px;font-weight:800;color:var(--accent);margin-bottom:12px}.contact-card{padding:22px;background:#fff}.contact-card span{display:block;font-size:14px;margin-bottom:8px}.contact-card strong{font-size:20px}.footer{padding:24px 0 40px;color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding-top:22px}
+.modal{position:fixed;inset:0;background:rgba(30,24,18,.26);display:none;align-items:center;justify-content:center;padding:24px;z-index:30}.modal.show{display:flex}.modal-panel{width:min(920px,100%);background:#fff;border-radius:24px;overflow:hidden;position:relative;box-shadow:0 30px 80px rgba(40,30,20,.15)}.modal-close{position:absolute;right:16px;top:14px;width:42px;height:42px;border:none;border-radius:50%;background:#fff;cursor:pointer;font-size:26px}.school-hero{min-height:270px;display:flex;align-items:flex-end;padding:28px;background:#1a2030;position:relative;overflow:hidden;background-size:cover;background-position:center}.school-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,18,28,.18) 0%,rgba(11,15,24,.78) 100%)}.school-hero-overlay{display:flex;align-items:center;gap:20px;position:relative;z-index:1;width:100%}.school-badge{width:84px;height:84px;border-radius:18px;background:#fff;border:1px solid rgba(255,255,255,.45);display:grid;place-items:center;overflow:hidden}.school-badge img{width:100%;height:100%;object-fit:contain;padding:6px}.school-hero h3{margin:0 0 8px;font-family:"Noto Serif SC","PingFang SC",serif;font-size:32px;color:#fff}.school-hero p{margin:0;color:rgba(255,255,255,.82);line-height:1.8}.school-modal-body{padding:22px;background:#121827;color:#fff}.rank-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}.rank-pill{padding:14px 12px;border-radius:14px;background:#171e30;border:1px solid rgba(255,255,255,.08);color:#fff;text-align:center}.rank-pill strong{display:block;font-size:26px;line-height:1.1;font-family:"Noto Serif SC","PingFang SC",serif;color:#d6c0ff;margin-bottom:6px}.rank-pill span{display:block;font-size:12px;color:rgba(255,255,255,.62);line-height:1.4}.school-modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.school-modal-grid.single{grid-template-columns:1fr}.soft-card{background:#171e30;border-color:rgba(255,255,255,.08)}.soft-card h4{margin:0 0 8px;font-size:17px;color:#fff}.soft-card p{margin:0;color:rgba(255,255,255,.75);line-height:1.9}
+.blog-page{padding-top:46px;padding-bottom:56px}
+@media (max-width:980px){.hero,.about-grid,.project-grid,.case-top,.school-modal-grid{grid-template-columns:1fr}.blog-grid,.blog-list-grid,.contact-grid,.edu-grid,.framework-grid{grid-template-columns:1fr}.metric-row{grid-template-columns:repeat(2,1fr)}.two-col{grid-template-columns:1fr}.hero h1{font-size:42px}.section-head h2,.blog-title-main{font-size:34px}}
+@media (max-width:760px){.wrap{width:min(100% - 24px,1120px)}.topbar{position:static}.nav-inner{padding:14px 0;align-items:flex-start}.nav-links{gap:12px}.hero{padding:36px 0 18px}.hero h1{font-size:34px}.metric-row{grid-template-columns:1fr 1fr}.section{padding:40px 0}.section-head h2,.blog-title-main{font-size:30px}.footer-inner{flex-direction:column}.modal{padding:10px}.school-hero-overlay{flex-direction:column;align-items:flex-start}.school-hero h3{font-size:28px}.rank-row{grid-template-columns:1fr 1fr}}
+
+
+.blog-shell{padding:52px 0 72px}
+.blog-list{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.blog-entry{padding:28px}
+.blog-entry h3{margin:0 0 10px;font-size:26px}
+.blog-entry p{margin:0;color:var(--muted);line-height:1.9}
+.blog-meta{margin-top:14px;font-size:13px;color:#8b7763}
+@media (max-width: 900px){.blog-list{grid-template-columns:1fr}}
+
+.article-shell{padding:50px 0 80px}
+.article-hero{padding:28px;background:#fff;border:1px solid var(--line);border-radius:24px}
+.article-hero .eyebrow{margin-bottom:10px}
+.article-hero h1{margin:0;font-family:"Noto Serif SC","PingFang SC",serif;font-size:46px;line-height:1.18}
+.article-dek{margin-top:16px;font-size:18px;line-height:1.9;color:var(--muted);max-width:860px}
+.article-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.article-meta span{font-size:13px;color:#544c44;border:1px solid var(--line);padding:8px 12px;border-radius:999px;background:#fff}
+.article-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;margin-top:26px}
+.article-main{min-width:0;max-width:900px;margin:0 auto}.article-side{min-width:0}.article-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px}.article-card h2{margin:0 0 14px;font-family:"Noto Serif SC","PingFang SC",serif;font-size:30px}.article-card h3{margin:28px 0 10px;font-size:22px}.article-card p{margin:0 0 16px;line-height:2;color:#332d27}.article-card ul{margin:0 0 18px;padding-left:20px;color:#332d27;line-height:2}.article-card li+li{margin-top:8px}.lead-quote{padding:18px 20px;border-left:4px solid var(--accent);background:#fbf6f0;border-radius:0 16px 16px 0;color:#4a433b;margin:18px 0 20px;line-height:1.9}
+.figure-card{padding:18px;background:#fcfbf8;border:1px solid var(--line);border-radius:18px;margin:20px 0}.figure-card img{width:100%;border-radius:14px;border:1px solid var(--line)}.figure-card figcaption{font-size:13px;color:var(--muted);margin-top:10px}
+.framework-figure{padding:22px}.framework-title{font-size:14px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}.framework-core{padding:18px;border:1px solid var(--line);border-radius:16px;background:#fff8f1;margin-bottom:14px}.framework-core strong{display:block;font-size:18px;margin-bottom:8px;font-family:"Noto Serif SC","PingFang SC",serif}.framework-core p{margin:0;color:var(--muted);line-height:1.9}.framework-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.framework-node{padding:16px;border-radius:16px;border:1px solid var(--line);background:#fff}.framework-node h4{margin:0 0 8px;font-size:17px}.framework-node p{margin:0;color:var(--muted);line-height:1.85;font-size:14px}
+.side-box{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;position:sticky;top:92px}.side-box h4{margin:0 0 12px;font-size:16px}.side-box p,.side-box li{color:var(--muted);line-height:1.9}.side-box ul{margin:0;padding-left:18px}
+.callout-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0}.callout{padding:18px;border:1px solid var(--line);border-radius:18px;background:#fcfbf8}.callout strong{display:block;margin-bottom:8px;font-size:16px}.mini-table{margin-top:18px;border:1px solid var(--line);border-radius:16px;overflow:auto}.mini-table table{width:100%;border-collapse:collapse;min-width:640px}.mini-table th,.mini-table td{padding:14px;border-bottom:1px solid #efe8de;text-align:left;font-size:14px}.mini-table th{background:#faf7f2;color:#5c534a}
+.article-end{font-size:18px;line-height:1.95;color:#2d2824;font-weight:600;border-top:1px solid var(--line);padding-top:18px;margin-top:28px}
+.template-note{padding:18px 20px;border:1px dashed #d6c6b4;background:#fffdf8;border-radius:18px;color:#6d675f;line-height:1.9;margin-bottom:18px}
+@media (max-width:980px){.article-layout{grid-template-columns:1fr}.side-box{position:static}.article-hero h1{font-size:38px}.callout-grid{grid-template-columns:1fr}}
+@media (max-width:760px){.article-shell{padding:30px 0 56px}.article-card,.article-hero{padding:22px}.article-hero h1{font-size:32px}}
+</style>
+<style>.article-card h2{font-size:25px;margin:32px 0 16px}.article-card p{line-height:1.95}.article-card a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}.mini-table table{min-width:0}.mini-table th,.mini-table td{padding:12px;font-size:14px;overflow-wrap:anywhere}@media(max-width:600px){.article-card,.article-hero{padding:20px}.article-card h2{font-size:22px}.article-dek{font-size:16px}.mini-table th,.mini-table td{padding:10px 8px;font-size:12px}}</style></head>
+<body>
+<header class="topbar">
+<div class="wrap nav-inner">
+<a class="brand" href="index.html">
+<div class="brand-mark">CH</div>
+<div><div class="brand-title">陈华 · Hua Chen</div><div class="brand-sub">Game Numerical Design / Systems Thinking</div></div>
+</a>
+<nav class="nav-links">
+<a href="index.html">主页</a>
+<a class="nav-cta" href="blog.html">博客列表</a>
+</nav>
+</div>
+</header>
+<main class="wrap article-shell"><section class="article-hero"><div class="eyebrow">生活记录</div><h1>实习小录</h1><div class="article-meta"><span>陈华 · Hua Chen</span><span><time datetime="2026-09">2026.09</time></span></div></section><div class="article-layout"><div class="article-main"><article class="article-card">
+<p>在腾讯实习的那段时间真的很开心，得到了意想不到的快乐。现在回忆起都还能很有触感。</p>
+<p>记得刚来的时候感觉一切都很新鲜，坪洲有直接去园区的接驳车，很方便，但是我实习的那段时间经常下大雨，所以有时候会排队排很长，而且车上一般都是很挤的，可能是因为住坪洲的人实在太多了。偶尔会被甩来甩去的，遇到车技比较狂野的司机的话。大概坐15-20分钟就到总部了。</p>
+<p>腾讯园区其实比我想象还要大还要新。真的随便一栋楼放我老家都是地标建筑了。我记得我第一天在云海一栋报到之后莫名其妙还走错了跟着别人上了魔方工作室，然后我老大领我去底下的茶餐厅吃饭了。园区除了几个食堂以外还是有很多餐厅很多店的，比如辣可可啊客家菜啊之类的，奶茶店也基本都有，饮食其实特别方便。</p>
+<p>我刚开始被安排进了云海2栋，所以那段时间基本都是和组里的小伙伴们一起吃食堂的，(大家真的都特别好，完全就是跟朋友一样相处，没有任何负担)。后来搬到了云海3栋，工位周围有更多实习生小伙伴，虽然不在一个组但也会互相送零食之类的，氛围都很好。中间也有新来的小伙伴能陪自己吃饭，那段时间也很开心。</p>
+<p>楼下经常会有活动，比如开放日啊比如无畏契约联名或者一些新游戏的宣传活动，我印象很深的有一个生态环境的活动，介绍各种鸟类的，很有意思。任何开放日的时候确实真的很热闹，会有很多活动，可以领玩偶之类的，也会有很多人来参观。有时候没有活动了园区还挺安静的，这个时候我会喜欢去腾云C座那边看海，那边风挺大的，前海也很美。</p>
+<p>在工作上，学到的东西真的很多，我真的很幸运在一个很好的组，所以大家都在很耐心地对我，在一直保护我。让我也慢慢有了能力能为组里做一点贡献，而且在期间我也学到了很多我想要学到的东西，甚至有更多自己意想不到的收获。</p>
+<p>我之前和小伙伴吃饭的时候就聊到，像其实世界上有这么多人，所以这辈子能遇到的，哪怕只是走过一段时光，也是很有缘分很值得感激的了。所以那段时间突然这么多有温度的人出现在我的世界里，是真的很值得感激的，这些比学到的知识那些都更难能可贵。</p>
+<p>总之这段回忆真的会伴随我很久，有时候真的感觉园区就像一个大学一样，路上形形色色的都是一个大学里不同学院不同专业的同学，和小伙伴去食堂吃饭和跟同学在大学食堂吃饭一样，聊着一些有的没的，很简单很纯粹的快乐。</p>
+</article></div></div></main>
+<div class="wrap" style="padding:18px 0 42px;color:#8c7967;font-size:14px;text-align:center;">最意难平的愿最值得修炼</div>
+</body>
+</html>
