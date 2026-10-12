@@ -1,5 +1,5 @@
 {
-  "version": "v77",
+  "version": "v78",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2230,
-      "sha256": "af3d0f16a45e28386527dac9a996a6a2fc573ecd9a2df733ec4ca2ed87e96108"
+      "sha256": "08aae58f98b24169eb6bfc7421b4c0fc58f2c4e2b446cacb84588d006bc9bb8b"
     },
     {
       "file": "index.html",
-      "bytes": 9256625,
-      "sha256": "c1e7cad93590d2a4b46ddfdf5763aad977b75fb46c1fb58ae7cf9d5bc1d9746f"
+      "bytes": 9256683,
+      "sha256": "941e1a827c8b7d99c8a092e9fb9718f3d795a26a5c843db392b5210ae170c757"
     },
     {
       "file": "lib/music-service.mjs",
@@ -293,8 +293,8 @@
     },
     {
       "file": "public/blog-lol-numerical-design.html",
-      "bytes": 19810,
-      "sha256": "ee0763717dbea76475d73b4fc5cac80f6101b7b1d306f749ee3dd28111d30df8"
+      "bytes": 19868,
+      "sha256": "94c40fed07ad789c65382aa2a0c2c6e2c0e76e6a5bc58e4533d941f628315d0c"
     },
     {
       "file": "public/blog-numerical-design-learning.html",
@@ -333,8 +333,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 9256713,
-      "sha256": "1c71607554d17d39d8af14c47f6b3c0515ddb9c157c600558a36102dacbfa8f6"
+      "bytes": 9256771,
+      "sha256": "13afe8defcd8f901713827655e902c73e9ff1ccdfb304205f9a0ef3e67d901c5"
     },
     {
       "file": "public/rift-protocol.html",
@@ -578,8 +578,8 @@
     },
     {
       "file": "src/site/blog-lol-numerical-design.html",
-      "bytes": 19648,
-      "sha256": "fa9fc836fe12803797384c631eebb3c73aebfb15e722074b2da04c35319f38d6"
+      "bytes": 19706,
+      "sha256": "a26824b077ff11c31571996ec1dd4dc01d8c2b48018483987bab61efc6ef2538"
     },
     {
       "file": "src/site/blog-numerical-design-learning.html",
