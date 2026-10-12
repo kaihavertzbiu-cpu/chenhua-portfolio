@@ -1,5 +1,5 @@
 {
-  "version": "v75",
+  "version": "v76",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2230,
-      "sha256": "318641157ebe27b3a8a7fc2665e26c1d0d1cffada9a67f2074bcb5b7a8eff16d"
+      "sha256": "562c117c1965440216b4681bca38ce0473a2820044f3ee22ab9baf5b43a71e92"
     },
     {
       "file": "index.html",
-      "bytes": 9103556,
-      "sha256": "521bdff499f10f3f7f21e8701e6d412db5f2bfefe29f6c5249d504899bcdfbd3"
+      "bytes": 9103037,
+      "sha256": "96b3987ccbd569738e4bf7116ba4fab130c766c7018687fd01f5c2bca5d24f43"
     },
     {
       "file": "lib/music-service.mjs",
@@ -123,13 +123,13 @@
     },
     {
       "file": "public/assets/internship-photos.css",
-      "bytes": 1319,
-      "sha256": "f1626c93b31239594dcebdf544896359bd2ea0d0e3af6d05222b3944804c85ec"
+      "bytes": 1125,
+      "sha256": "4fe1ac3b0127932ec1ed58e188f0a059444094dd46072e75901bf934142a5779"
     },
     {
       "file": "public/assets/internship-photos.js",
-      "bytes": 968,
-      "sha256": "f1a2b20ce0b92dd1109d8bbcba62248cc5058448d9205f06e390cb65cb96594f"
+      "bytes": 846,
+      "sha256": "64a57c64fe0aa22d7c86399e3ed76d2301f1452237cd14cedb2995275f85c62d"
     },
     {
       "file": "public/assets/internship/cafeteria-meal.jpg",
@@ -273,8 +273,8 @@
     },
     {
       "file": "public/blog-internship-notes.html",
-      "bytes": 20873,
-      "sha256": "5b30bfa4ad364e6241fb536d0c246be962849164e72642b06cb39fe7cc6aca16"
+      "bytes": 20710,
+      "sha256": "a5f731bf53af3e2f1eb27530d12e92e7607277505ab59d4247f6ab0129c63d7e"
     },
     {
       "file": "public/blog-numerical-design-learning.html",
@@ -313,8 +313,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 9103644,
-      "sha256": "2c84d0f43e1c5d0de1c2ec8cfcc912bf50d6ba8d08fb3cd9a597a3dfc0cb223a"
+      "bytes": 9103125,
+      "sha256": "da0f8eddea7bd2e31cedbb6ac2efe97637e2630ccf750b1e91aa5b1828d10126"
     },
     {
       "file": "public/rift-protocol.html",
@@ -388,13 +388,13 @@
     },
     {
       "file": "src/site/assets/internship-photos.css",
-      "bytes": 1319,
-      "sha256": "f1626c93b31239594dcebdf544896359bd2ea0d0e3af6d05222b3944804c85ec"
+      "bytes": 1125,
+      "sha256": "4fe1ac3b0127932ec1ed58e188f0a059444094dd46072e75901bf934142a5779"
     },
     {
       "file": "src/site/assets/internship-photos.js",
-      "bytes": 968,
-      "sha256": "f1a2b20ce0b92dd1109d8bbcba62248cc5058448d9205f06e390cb65cb96594f"
+      "bytes": 846,
+      "sha256": "64a57c64fe0aa22d7c86399e3ed76d2301f1452237cd14cedb2995275f85c62d"
     },
     {
       "file": "src/site/assets/internship/cafeteria-meal.jpg",
@@ -538,8 +538,8 @@
     },
     {
       "file": "src/site/blog-internship-notes.html",
-      "bytes": 20715,
-      "sha256": "a95905f43aed9cc61b6c724c479c4b4e7312a1952fee810700b6b237a2090cf5"
+      "bytes": 20552,
+      "sha256": "c3d7bba19796da38e8442d182ae7710a946447580760974fdbea37a562dcfa6b"
     },
     {
       "file": "src/site/blog-numerical-design-learning.html",

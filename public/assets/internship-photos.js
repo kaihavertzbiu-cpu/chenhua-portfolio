@@ -7,7 +7,6 @@
       const image = dialog.querySelector('img');
       image.src = source.src;
       image.alt = source.alt;
-      dialog.querySelector('figcaption').textContent = button.closest('figure').querySelector('figcaption').textContent;
       dialog.showModal();
     });
   });
