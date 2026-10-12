@@ -1,5 +1,5 @@
 {
-  "version": "v80",
+  "version": "v81",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2408,
-      "sha256": "af30a9b7c27c2517edbdb99ea38b95c99cf0c7b122793e19e00d2484fddc7877"
+      "bytes": 2420,
+      "sha256": "5fc1a9052584920897cf82665577eb5f5e37c8f2eca05a267fda120de2473286"
     },
     {
       "file": "index.html",
-      "bytes": 8820385,
-      "sha256": "0f1a1d9a069284ef47d32f905fb3097846f15c99f6faf3aa6bfe86c9ac923ac6"
+      "bytes": 11068429,
+      "sha256": "47ea99d3ee4350be6415bf561bde244202bca336f860718e2e873a386e137dae"
     },
     {
       "file": "lib/music-service.mjs",
@@ -232,6 +232,11 @@
       "sha256": "f41de7fb5233d0cb6e07c1be885c5866f52c1773fd202cdc9383407305254678"
     },
     {
+      "file": "public/assets/shooting/phantom-vandal.png",
+      "bytes": 1668953,
+      "sha256": "bc19bc7ea26ad734cde1263762e9047bf5a7ebc7cabefe1373944908d2b71652"
+    },
+    {
       "file": "public/assets/vendor/APlayer.LICENSE.txt",
       "bytes": 1121,
       "sha256": "6296c34fc24aedd4a120213620015a4feb0b16a571f3b3f640ac200e90bfdfae"
@@ -287,9 +292,14 @@
       "sha256": "94c40fed07ad789c65382aa2a0c2c6e2c0e76e6a5bc58e4533d941f628315d0c"
     },
     {
+      "file": "public/blog-shooting.html",
+      "bytes": 19474,
+      "sha256": "c5f23fac4e64368c9c92e05edd4eae2d3035b6dcff618ecbf6b2fc7d78f54c01"
+    },
+    {
       "file": "public/blog.html",
-      "bytes": 16070,
-      "sha256": "4fbd511d40ab34c454ea1e12dc9b790cb7082fa22efdb936e49bd315da8873d5"
+      "bytes": 16397,
+      "sha256": "757ec3834c897e7b67e46b0fffdea04160cad39e78162bbda2140331b231964b"
     },
     {
       "file": "public/campus-parking.html",
@@ -308,8 +318,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 8820473,
-      "sha256": "534a9adbe7828d28e539caa253f63f2dec0ad6323974f43822ed0e8e1a4ec9b2"
+      "bytes": 11068517,
+      "sha256": "7bab4443fbf7270feb0f84d150fb6cc416c6738d92b01530665ee0be8cda3e79"
     },
     {
       "file": "public/rift-protocol.html",
@@ -492,6 +502,11 @@
       "sha256": "f41de7fb5233d0cb6e07c1be885c5866f52c1773fd202cdc9383407305254678"
     },
     {
+      "file": "src/site/assets/shooting/phantom-vandal.png",
+      "bytes": 1668953,
+      "sha256": "bc19bc7ea26ad734cde1263762e9047bf5a7ebc7cabefe1373944908d2b71652"
+    },
+    {
       "file": "src/site/assets/vendor/APlayer.LICENSE.txt",
       "bytes": 1121,
       "sha256": "6296c34fc24aedd4a120213620015a4feb0b16a571f3b3f640ac200e90bfdfae"
@@ -547,9 +562,14 @@
       "sha256": "a26824b077ff11c31571996ec1dd4dc01d8c2b48018483987bab61efc6ef2538"
     },
     {
+      "file": "src/site/blog-shooting.html",
+      "bytes": 19324,
+      "sha256": "88eb638cdfdeb038a552c67b73d1917d94a797dea9d224a714c8ea7bfff086af"
+    },
+    {
       "file": "src/site/blog.html",
-      "bytes": 15929,
-      "sha256": "c1cf906719b4ef2c9ae3965b6caa85dee5d1c5b3fe97a01063611f12907ea390"
+      "bytes": 16256,
+      "sha256": "e7ef9de54ed252e460f2c6041904925ab3395db74687b7006ecacaac10b97146"
     },
     {
       "file": "src/site/campus-parking.html",
