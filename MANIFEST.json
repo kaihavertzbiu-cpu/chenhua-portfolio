@@ -1,5 +1,5 @@
 {
-  "version": "v72",
+  "version": "v73",
   "files": [
     {
       "file": ".gitattributes",
@@ -24,12 +24,12 @@
     {
       "file": "README.md",
       "bytes": 2230,
-      "sha256": "f6e829db0fb159684ad2dc04e17b3b5ab71424eaf7aa613af698ceb08f7f65fb"
+      "sha256": "fc3daa7c089d512cb35334a26b24be47cc64f503e4f8b3333739ca031d545e11"
     },
     {
       "file": "index.html",
-      "bytes": 8261285,
-      "sha256": "29d3bdd9198a6c8bb57f98e20b82a2354617282bf732da66d22f915c10d709f1"
+      "bytes": 8261017,
+      "sha256": "aa3bd98ff1c9a61b550fa1b2ca4d16396904124feaeee42656f28c4c6824d46a"
     },
     {
       "file": "lib/music-service.mjs",
@@ -283,8 +283,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 8261373,
-      "sha256": "8e6f1a9a189c3c6d16e1fd62fd8ace346e15a0991c0959dcecbf3a2022cb2648"
+      "bytes": 8261105,
+      "sha256": "120378f253c97c3766c824900e953ef6bf275a23b930c5bccfc30cde619661cb"
     },
     {
       "file": "public/rift-protocol.html",
@@ -518,8 +518,8 @@
     },
     {
       "file": "src/site/index.html",
-      "bytes": 2264933,
-      "sha256": "2a35e2cfc5580b1b887f125034d19a5b16498747d6a85377c4f66da1aec85818"
+      "bytes": 2264675,
+      "sha256": "067860a5af2d39d0f1aa70fad63c72b9185ceaa88524057ae46ae249b154d3f5"
     },
     {
       "file": "src/site/rift-protocol.html",
