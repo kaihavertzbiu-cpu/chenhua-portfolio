@@ -1,5 +1,5 @@
 {
-  "version": "v83",
+  "version": "v84",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2465,
-      "sha256": "a33cae48d8ceb0ee10e255d1f919a9875d45ee9ecd9c1a8673ed6b01c81b1649"
+      "bytes": 2486,
+      "sha256": "9d9e307cbd90c23a5a9e69a5d8e5f13556c74e93d7e5ac61dc9003875418370e"
     },
     {
       "file": "index.html",
-      "bytes": 11334747,
-      "sha256": "cab711421e235b634154bdfb91ed15feac5ae2a63078c1e2224e396692d8f05b"
+      "bytes": 11354707,
+      "sha256": "0e099b44cb68289986b24704e04e385ef4fc4ae5225b3b7e6840a6fae9413829"
     },
     {
       "file": "lib/music-service.mjs",
@@ -297,9 +297,14 @@
       "sha256": "94c40fed07ad789c65382aa2a0c2c6e2c0e76e6a5bc58e4533d941f628315d0c"
     },
     {
+      "file": "public/blog-numerical-notes.html",
+      "bytes": 18575,
+      "sha256": "dc296ddb82d3388849b17eec9926352e3b28a5642eb089dd1c84c2452932c0d8"
+    },
+    {
       "file": "public/blog-shooting.html",
-      "bytes": 19474,
-      "sha256": "c5f23fac4e64368c9c92e05edd4eae2d3035b6dcff618ecbf6b2fc7d78f54c01"
+      "bytes": 19480,
+      "sha256": "86aeb01cba401782d0e31c3d055a99cc209683f4b0099dbd3d112465ea65c17f"
     },
     {
       "file": "public/blog-two-worlds.html",
@@ -308,8 +313,8 @@
     },
     {
       "file": "public/blog.html",
-      "bytes": 16794,
-      "sha256": "c624498e5703a6489c429ba86be500f3f44c866033a024077dded2e7e9b61e7e"
+      "bytes": 17153,
+      "sha256": "24da8236abb383d994471f8e5c08788f10d71185e5bd9d63d3df9e775b222a4b"
     },
     {
       "file": "public/campus-parking.html",
@@ -328,8 +333,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 11334835,
-      "sha256": "4b7e430253e26f227db37015b8680c8b6d7b4843158dc04142d62d17b6af898a"
+      "bytes": 11354795,
+      "sha256": "747a23963570f80928232c88e7c233cb5f07662393aff7d70e3e570578025614"
     },
     {
       "file": "public/rift-protocol.html",
@@ -577,9 +582,14 @@
       "sha256": "a26824b077ff11c31571996ec1dd4dc01d8c2b48018483987bab61efc6ef2538"
     },
     {
+      "file": "src/site/blog-numerical-notes.html",
+      "bytes": 18418,
+      "sha256": "d78e1627e013fceaa121b54f3c1755524e687d6f228624497f672ed2ccd41e60"
+    },
+    {
       "file": "src/site/blog-shooting.html",
-      "bytes": 19324,
-      "sha256": "88eb638cdfdeb038a552c67b73d1917d94a797dea9d224a714c8ea7bfff086af"
+      "bytes": 19330,
+      "sha256": "71ccfe586b43ab3d3d9be9b016b92592fb1b5febf3a4e06d36f9a44303f4134f"
     },
     {
       "file": "src/site/blog-two-worlds.html",
@@ -588,8 +598,8 @@
     },
     {
       "file": "src/site/blog.html",
-      "bytes": 16653,
-      "sha256": "7a31e0977cfdccb11fd4aae28ce2193b9b2e7d04ebcb94750cc3e17f44743532"
+      "bytes": 17012,
+      "sha256": "f530f2fcf542d297ed73021d4e3f87947ad2364b485c8e6d8adcd13d5293752e"
     },
     {
       "file": "src/site/campus-parking.html",
