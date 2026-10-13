@@ -1,5 +1,5 @@
 {
-  "version": "v92",
+  "version": "v93",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 3379,
-      "sha256": "4ddcfbb18131927d5cbfa96e173d0eee8f22595397f05f4c7254e1251105a70d"
+      "bytes": 3497,
+      "sha256": "79adba07679fb4d482e43fc81eedd3438c68913df3241e189d3578e6ae6ead9f"
     },
     {
       "file": "index.html",
-      "bytes": 24020778,
-      "sha256": "a91e548cf474e0b93c95f03cc0406cd2f84ee76d050c7aa8aba0ee86a0ebf2be"
+      "bytes": 24020691,
+      "sha256": "3d8c342f05d0a338a9f2150c3f724220d26bd9eb820f436e8fd9504086c7471e"
     },
     {
       "file": "lib/music-service.mjs",
@@ -358,8 +358,8 @@
     },
     {
       "file": "public/blog-lol-numerical-design.html",
-      "bytes": 19868,
-      "sha256": "94c40fed07ad789c65382aa2a0c2c6e2c0e76e6a5bc58e4533d941f628315d0c"
+      "bytes": 19781,
+      "sha256": "fd0daea741aa72566ef0c72c5466b9ca18f99925d452661014d27e53ecb0c307"
     },
     {
       "file": "public/blog-numerical-notes.html",
@@ -398,8 +398,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 24020866,
-      "sha256": "2ccba22242ca7e1e44853b9e962e24684c35b4e96c06544683294cc17d7035a3"
+      "bytes": 24020779,
+      "sha256": "f279e300e13356c3266c7bf3df07672e425793d391377c2d2b9d6b94459edb3f"
     },
     {
       "file": "public/rift-protocol.html",
@@ -708,8 +708,8 @@
     },
     {
       "file": "src/site/blog-lol-numerical-design.html",
-      "bytes": 19706,
-      "sha256": "a26824b077ff11c31571996ec1dd4dc01d8c2b48018483987bab61efc6ef2538"
+      "bytes": 19619,
+      "sha256": "e6621129648f4eb6484b1392c2d172d6eb4e3fa9799bf4104b492ecd18e3a0cb"
     },
     {
       "file": "src/site/blog-numerical-notes.html",
