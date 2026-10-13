@@ -1,5 +1,5 @@
 {
-  "version": "v88",
+  "version": "v89",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2988,
-      "sha256": "e65acc5fdd9b913a039e6adad6d78a8c0a4c29094d38527308fca0ded73c81fc"
+      "bytes": 3097,
+      "sha256": "8857bc39469aa660a34f4e9230ddc820db4f8cd52cb3b7d2804fc92be5a86643"
     },
     {
       "file": "index.html",
       "bytes": 24020634,
-      "sha256": "51f8b55ebfc35f19af2ce28a428381690e02e6782b2dc3a1e8ee425358458725"
+      "sha256": "d34d8713ae8dba28c4dd936749071eaf9c7f398bde9144fac719372c83db2c34"
     },
     {
       "file": "lib/music-service.mjs",
@@ -354,7 +354,7 @@
     {
       "file": "public/blog-jcc.html",
       "bytes": 20626,
-      "sha256": "b54d3254b9161a916d5ff17437f4f35a553ccc4c774aec51060aa8d3a12ae049"
+      "sha256": "37a3eb60fcb9fab1c89dd58cfb278853af372265262a93b3bc45770ebea19aa4"
     },
     {
       "file": "public/blog-lol-numerical-design.html",
@@ -374,7 +374,7 @@
     {
       "file": "public/blog-two-worlds.html",
       "bytes": 21038,
-      "sha256": "d3c8ebf0d5db620cff2e3249590c18eca13a2a0c24d13aaa7336c5cc3852d0bc"
+      "sha256": "cdb64ff511b0f515e289142a54d46209d18ebb84a760a12e276d470235e43c6c"
     },
     {
       "file": "public/blog.html",
@@ -399,7 +399,7 @@
     {
       "file": "public/index.html",
       "bytes": 24020722,
-      "sha256": "e6781799f30d19b98e5574cdde0749939d896fa36f077a99009b6241e9a1d20e"
+      "sha256": "c9778621344cfbc01ca84e0c829627e44525a0b4b982e621ee5610c1ab663691"
     },
     {
       "file": "public/rift-protocol.html",
@@ -704,7 +704,7 @@
     {
       "file": "src/site/blog-jcc.html",
       "bytes": 20481,
-      "sha256": "692dd01a63a1f0da63ae5c7ce58e4d002e3553f3d2c4355b0f02be63d17f087b"
+      "sha256": "15edf48c9d38102c8822da044545b4a5235c3f8c9ac1d15e21f4410b6faab0b3"
     },
     {
       "file": "src/site/blog-lol-numerical-design.html",
@@ -724,7 +724,7 @@
     {
       "file": "src/site/blog-two-worlds.html",
       "bytes": 20886,
-      "sha256": "131303559bad2b0b036850af9344c372e5f1dcb1d5dcd6fa7a3aebc6e6b7b209"
+      "sha256": "cee9d841927657c9fb31d904bc875863a785b64eaf2372f3465e00bb6bb7794c"
     },
     {
       "file": "src/site/blog.html",
