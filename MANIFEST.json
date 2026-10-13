@@ -1,5 +1,5 @@
 {
-  "version": "v87",
+  "version": "v88",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2846,
-      "sha256": "bab94cf03f3561d6df5630b035389600499d44779aa90d817d50ef4a2e369874"
+      "bytes": 2988,
+      "sha256": "e65acc5fdd9b913a039e6adad6d78a8c0a4c29094d38527308fca0ded73c81fc"
     },
     {
       "file": "index.html",
-      "bytes": 24020342,
-      "sha256": "6416ed1ff0a274a210104d99f745c1391c6c3ca357266e480f6189fc3a3fa783"
+      "bytes": 24020634,
+      "sha256": "51f8b55ebfc35f19af2ce28a428381690e02e6782b2dc3a1e8ee425358458725"
     },
     {
       "file": "lib/music-service.mjs",
@@ -273,8 +273,8 @@
     },
     {
       "file": "public/assets/portfolio-update.css",
-      "bytes": 2679,
-      "sha256": "68f41aa640a8024d24ee3b41b9eeeb797fdc4c1b3c0d77b6ffbd8fc44e12ae1c"
+      "bytes": 3100,
+      "sha256": "3e9672711fbc163fd8fd3c5846e0486b35139c5d3e394177f7b800d33102f1e6"
     },
     {
       "file": "public/assets/rift-protocol/rift-project-card-1600x900.webp",
@@ -393,13 +393,13 @@
     },
     {
       "file": "public/first-move.html",
-      "bytes": 9254,
-      "sha256": "926c2dfb25e6a29f8ba0d7517b787312368b2dac42e89931fd4ca95bdef7627d"
+      "bytes": 9233,
+      "sha256": "b47ecfb1b0f3b637ecad260478f2ffad330384a9581705dddc0082d8176985c0"
     },
     {
       "file": "public/index.html",
-      "bytes": 24020430,
-      "sha256": "284caa07eda6b5a036e7a26d87a64c315a4e0254d6ee70370261afbefecfed2c"
+      "bytes": 24020722,
+      "sha256": "e6781799f30d19b98e5574cdde0749939d896fa36f077a99009b6241e9a1d20e"
     },
     {
       "file": "public/rift-protocol.html",
@@ -623,8 +623,8 @@
     },
     {
       "file": "src/site/assets/portfolio-update.css",
-      "bytes": 2679,
-      "sha256": "68f41aa640a8024d24ee3b41b9eeeb797fdc4c1b3c0d77b6ffbd8fc44e12ae1c"
+      "bytes": 3100,
+      "sha256": "3e9672711fbc163fd8fd3c5846e0486b35139c5d3e394177f7b800d33102f1e6"
     },
     {
       "file": "src/site/assets/rift-protocol/rift-project-card-1600x900.webp",
@@ -743,13 +743,13 @@
     },
     {
       "file": "src/site/first-move.html",
-      "bytes": 9107,
-      "sha256": "44bf93d4d4db7f462187e5c807e0be6f52def1a5d2146c35a7126ed36f080955"
+      "bytes": 9086,
+      "sha256": "39aeb11749a25a1cd7f113185849dddca57ded84576df0037db494c8a9dc34ef"
     },
     {
       "file": "src/site/index.html",
-      "bytes": 2264117,
-      "sha256": "9e0b023c5d28b8bd84ae84a669bd22afe9e712394bcf7aa2c334228a32d874a7"
+      "bytes": 2264021,
+      "sha256": "48aa9beaa7c105deb136ba9b3d38b9b1fd0d830b0af28b05ac6f6338b5d0517e"
     },
     {
       "file": "src/site/rift-protocol.html",
