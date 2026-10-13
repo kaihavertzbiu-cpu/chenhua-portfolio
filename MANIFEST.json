@@ -1,5 +1,5 @@
 {
-  "version": "v84",
+  "version": "v85",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2486,
-      "sha256": "9d9e307cbd90c23a5a9e69a5d8e5f13556c74e93d7e5ac61dc9003875418370e"
+      "bytes": 2512,
+      "sha256": "ea80bfa1dee6f79925295f064fab65f10e2802a45ce1b2cc8238c3b28854b809"
     },
     {
       "file": "index.html",
-      "bytes": 11354707,
-      "sha256": "0e099b44cb68289986b24704e04e385ef4fc4ae5225b3b7e6840a6fae9413829"
+      "bytes": 11374306,
+      "sha256": "4cbe0356dde0a45a520975889459ec2a76dc6419c0bd2dc9109e0eb5d77e8398"
     },
     {
       "file": "lib/music-service.mjs",
@@ -282,6 +282,11 @@
       "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
     },
     {
+      "file": "public/blog-ai-planning-lecture.html",
+      "bytes": 18212,
+      "sha256": "17647e23a3f5a24b53dc134d75e00b22b64227695cfdc8e708373f44aa891a08"
+    },
+    {
       "file": "public/blog-internship-notes.html",
       "bytes": 20710,
       "sha256": "a5f731bf53af3e2f1eb27530d12e92e7607277505ab59d4247f6ab0129c63d7e"
@@ -313,8 +318,8 @@
     },
     {
       "file": "public/blog.html",
-      "bytes": 17153,
-      "sha256": "24da8236abb383d994471f8e5c08788f10d71185e5bd9d63d3df9e775b222a4b"
+      "bytes": 17530,
+      "sha256": "839d88c5a0c8a92b921c96b713644ade48296fd65a3f9d3223ed418c1aa7b82c"
     },
     {
       "file": "public/campus-parking.html",
@@ -333,8 +338,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 11354795,
-      "sha256": "747a23963570f80928232c88e7c233cb5f07662393aff7d70e3e570578025614"
+      "bytes": 11374394,
+      "sha256": "06da2864d7c365a155fddc35b23a7d0cc374496582a1d5724234df50b32f76a1"
     },
     {
       "file": "public/rift-protocol.html",
@@ -567,6 +572,11 @@
       "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
     },
     {
+      "file": "src/site/blog-ai-planning-lecture.html",
+      "bytes": 18051,
+      "sha256": "5e835695c6a8f6a595d32aea02d32e1aaf336007ebd97308dd6ea23df0767a80"
+    },
+    {
       "file": "src/site/blog-internship-notes.html",
       "bytes": 20552,
       "sha256": "c3d7bba19796da38e8442d182ae7710a946447580760974fdbea37a562dcfa6b"
@@ -598,8 +608,8 @@
     },
     {
       "file": "src/site/blog.html",
-      "bytes": 17012,
-      "sha256": "f530f2fcf542d297ed73021d4e3f87947ad2364b485c8e6d8adcd13d5293752e"
+      "bytes": 17389,
+      "sha256": "d2549f63dcfd001d5c6821b58ce078e15e7add435a0c075072b192b3667ee80d"
     },
     {
       "file": "src/site/campus-parking.html",
