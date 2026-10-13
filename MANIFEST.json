@@ -1,5 +1,5 @@
 {
-  "version": "v91",
+  "version": "v92",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 3288,
-      "sha256": "15680bfbc6a0a74a6c023f3eb655dc7407f399ac0573a2a5ae3470878ea9ccd9"
+      "bytes": 3379,
+      "sha256": "4ddcfbb18131927d5cbfa96e173d0eee8f22595397f05f4c7254e1251105a70d"
     },
     {
       "file": "index.html",
-      "bytes": 24020790,
-      "sha256": "54aa21c992038ead19f717228052a1eb058dc8109ec0a3039cc8f91b3bac73b8"
+      "bytes": 24020778,
+      "sha256": "a91e548cf474e0b93c95f03cc0406cd2f84ee76d050c7aa8aba0ee86a0ebf2be"
     },
     {
       "file": "lib/music-service.mjs",
@@ -348,8 +348,8 @@
     },
     {
       "file": "public/blog-internship-notes.html",
-      "bytes": 20743,
-      "sha256": "45449804990118abb89f8da205e5890689b2b5230da91db5021db00d8e968e62"
+      "bytes": 20731,
+      "sha256": "ab69700a6d0d80dfecae09e63877d64b4d3bf624aa73f2e2892a2c2d01b55770"
     },
     {
       "file": "public/blog-jcc.html",
@@ -398,8 +398,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 24020878,
-      "sha256": "4fd4b7ecb1b5389e81509e8ef516876f9b439a48974a0f1a24ca1dc21a9f608a"
+      "bytes": 24020866,
+      "sha256": "2ccba22242ca7e1e44853b9e962e24684c35b4e96c06544683294cc17d7035a3"
     },
     {
       "file": "public/rift-protocol.html",
@@ -698,8 +698,8 @@
     },
     {
       "file": "src/site/blog-internship-notes.html",
-      "bytes": 20585,
-      "sha256": "a00ac01a05532b22ab1cf87bc75cd205b5c3885cba5a701f464c3ed6ec78b8e8"
+      "bytes": 20573,
+      "sha256": "03a3a981d1a3439b6316084f80b1a8f1fb21ddc17d252fab9adab78aeaa3fa33"
     },
     {
       "file": "src/site/blog-jcc.html",
