@@ -1,5 +1,5 @@
 {
-  "version": "v86",
+  "version": "v87",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2665,
-      "sha256": "5b062b5069a14f8a3ca5a8cec04d171a369a1491354414f7dc6c4a1429250f00"
+      "bytes": 2846,
+      "sha256": "bab94cf03f3561d6df5630b035389600499d44779aa90d817d50ef4a2e369874"
     },
     {
       "file": "index.html",
-      "bytes": 24022260,
-      "sha256": "0e79d94155dbce28d5831d65030df4a26669a164441b2d9a29d67268b47e44f4"
+      "bytes": 24020342,
+      "sha256": "6416ed1ff0a274a210104d99f745c1391c6c3ca357266e480f6189fc3a3fa783"
     },
     {
       "file": "lib/music-service.mjs",
@@ -88,13 +88,13 @@
     },
     {
       "file": "public/assets/first-move/case.css",
-      "bytes": 8723,
-      "sha256": "27b320018b71b71e50eed07adcc0dadfc182e4771bef8324026b2ec4986c675e"
+      "bytes": 8903,
+      "sha256": "b0e7052dcb6abdb65a43c5418b3a40b97d3e40bd947f51c307f8959072acfc87"
     },
     {
       "file": "public/assets/first-move/case.js",
-      "bytes": 2209,
-      "sha256": "cead1de1d111a6c6a34e29a5fbc16410e0c625f3b749bfa03913ae9b6a41b5af"
+      "bytes": 2178,
+      "sha256": "519e6da45a5a561a911fbcfa1a49b7b643a9ba8426d11d5264e4749a89e4cdd8"
     },
     {
       "file": "public/assets/first-move/home.webp",
@@ -393,18 +393,18 @@
     },
     {
       "file": "public/first-move.html",
-      "bytes": 10866,
-      "sha256": "a43750d5b7c0443dc0ff95e9e5d6062e51af8c2afc72a065f146529351f2f328"
+      "bytes": 9254,
+      "sha256": "926c2dfb25e6a29f8ba0d7517b787312368b2dac42e89931fd4ca95bdef7627d"
     },
     {
       "file": "public/index.html",
-      "bytes": 24022348,
-      "sha256": "ee189aa62b9661d0c511a543c92763e53190d498809e81e7b3b8c24e055d3be1"
+      "bytes": 24020430,
+      "sha256": "284caa07eda6b5a036e7a26d87a64c315a4e0254d6ee70370261afbefecfed2c"
     },
     {
       "file": "public/rift-protocol.html",
-      "bytes": 7548,
-      "sha256": "b6d3937449f07a30d6f0156edd13f82e12fd82566f4b3e60a5b5af918b437d70"
+      "bytes": 7525,
+      "sha256": "0320fe3c0bfa7c986b2c6b6c394cf482b43da4b80cd8a4096e7b34cab6eb24a8"
     },
     {
       "file": "src/site/RIFT_PROTOCOL_面试讲稿.md",
@@ -438,13 +438,13 @@
     },
     {
       "file": "src/site/assets/first-move/case.css",
-      "bytes": 8723,
-      "sha256": "27b320018b71b71e50eed07adcc0dadfc182e4771bef8324026b2ec4986c675e"
+      "bytes": 8903,
+      "sha256": "b0e7052dcb6abdb65a43c5418b3a40b97d3e40bd947f51c307f8959072acfc87"
     },
     {
       "file": "src/site/assets/first-move/case.js",
-      "bytes": 2209,
-      "sha256": "cead1de1d111a6c6a34e29a5fbc16410e0c625f3b749bfa03913ae9b6a41b5af"
+      "bytes": 2178,
+      "sha256": "519e6da45a5a561a911fbcfa1a49b7b643a9ba8426d11d5264e4749a89e4cdd8"
     },
     {
       "file": "src/site/assets/first-move/home.webp",
@@ -743,18 +743,18 @@
     },
     {
       "file": "src/site/first-move.html",
-      "bytes": 10719,
-      "sha256": "8b7d3b992cb6b7a22929a678a376463c22fe635a6171c648db6e0f63cf43b524"
+      "bytes": 9107,
+      "sha256": "44bf93d4d4db7f462187e5c807e0be6f52def1a5d2146c35a7126ed36f080955"
     },
     {
       "file": "src/site/index.html",
-      "bytes": 2264355,
-      "sha256": "8347f65134fce0cc871724aa29a2005f002ff487636e6d100f8fb49345576201"
+      "bytes": 2264117,
+      "sha256": "9e0b023c5d28b8bd84ae84a669bd22afe9e712394bcf7aa2c334228a32d874a7"
     },
     {
       "file": "src/site/rift-protocol.html",
-      "bytes": 7398,
-      "sha256": "af1288c2857647e04797a9916868d0603662ef307486f3107af65d4493c3f65b"
+      "bytes": 7375,
+      "sha256": "ec23daf547dd98105fcb1a3fe6996ec97b082a77a6ec6d519078e925e8df9196"
     },
     {
       "file": "tests/music-service.test.mjs",
