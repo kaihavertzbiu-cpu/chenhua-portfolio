@@ -1,5 +1,5 @@
 {
-  "version": "v89",
+  "version": "v90",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 3097,
-      "sha256": "8857bc39469aa660a34f4e9230ddc820db4f8cd52cb3b7d2804fc92be5a86643"
+      "bytes": 3200,
+      "sha256": "392d8ab6f7fa6229b8466bc8117cbc727eb3333fee835083d51e900fec585f89"
     },
     {
       "file": "index.html",
-      "bytes": 24020634,
-      "sha256": "d34d8713ae8dba28c4dd936749071eaf9c7f398bde9144fac719372c83db2c34"
+      "bytes": 24020799,
+      "sha256": "527f007ea860907d5ce0267dcb34b08b1dd2cf20fc9013ad0e87801502a82273"
     },
     {
       "file": "lib/music-service.mjs",
@@ -348,8 +348,8 @@
     },
     {
       "file": "public/blog-internship-notes.html",
-      "bytes": 20710,
-      "sha256": "a5f731bf53af3e2f1eb27530d12e92e7607277505ab59d4247f6ab0129c63d7e"
+      "bytes": 20743,
+      "sha256": "45449804990118abb89f8da205e5890689b2b5230da91db5021db00d8e968e62"
     },
     {
       "file": "public/blog-jcc.html",
@@ -373,8 +373,8 @@
     },
     {
       "file": "public/blog-two-worlds.html",
-      "bytes": 21038,
-      "sha256": "cdb64ff511b0f515e289142a54d46209d18ebb84a760a12e276d470235e43c6c"
+      "bytes": 21089,
+      "sha256": "f7a79c9714f6a157091ac52d6a53bf48b6ed6e7f4de5b8fed38f94708fdbc914"
     },
     {
       "file": "public/blog.html",
@@ -398,8 +398,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 24020722,
-      "sha256": "c9778621344cfbc01ca84e0c829627e44525a0b4b982e621ee5610c1ab663691"
+      "bytes": 24020887,
+      "sha256": "38244c5a0ec7dc3a54d11560c28f3d6b7369410588addf7222dafa728184df37"
     },
     {
       "file": "public/rift-protocol.html",
@@ -698,8 +698,8 @@
     },
     {
       "file": "src/site/blog-internship-notes.html",
-      "bytes": 20552,
-      "sha256": "c3d7bba19796da38e8442d182ae7710a946447580760974fdbea37a562dcfa6b"
+      "bytes": 20585,
+      "sha256": "a00ac01a05532b22ab1cf87bc75cd205b5c3885cba5a701f464c3ed6ec78b8e8"
     },
     {
       "file": "src/site/blog-jcc.html",
@@ -723,8 +723,8 @@
     },
     {
       "file": "src/site/blog-two-worlds.html",
-      "bytes": 20886,
-      "sha256": "cee9d841927657c9fb31d904bc875863a785b64eaf2372f3465e00bb6bb7794c"
+      "bytes": 20937,
+      "sha256": "af54a4315b945c721d57e8de8817f7e31bb2117dcef9cf0fec98370ee0ed4c0f"
     },
     {
       "file": "src/site/blog.html",
@@ -748,8 +748,8 @@
     },
     {
       "file": "src/site/index.html",
-      "bytes": 2264021,
-      "sha256": "48aa9beaa7c105deb136ba9b3d38b9b1fd0d830b0af28b05ac6f6338b5d0517e"
+      "bytes": 2264102,
+      "sha256": "dcc2e06b09f3f421d2cc55a95507f5263fc310033a525148348c9510de9590e2"
     },
     {
       "file": "src/site/rift-protocol.html",
