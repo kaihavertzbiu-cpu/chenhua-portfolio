@@ -1,5 +1,5 @@
 {
-  "version": "v85",
+  "version": "v86",
   "files": [
     {
       "file": ".gitattributes",
@@ -23,13 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 2512,
-      "sha256": "ea80bfa1dee6f79925295f064fab65f10e2802a45ce1b2cc8238c3b28854b809"
+      "bytes": 2665,
+      "sha256": "5b062b5069a14f8a3ca5a8cec04d171a369a1491354414f7dc6c4a1429250f00"
     },
     {
       "file": "index.html",
-      "bytes": 11374306,
-      "sha256": "4cbe0356dde0a45a520975889459ec2a76dc6419c0bd2dc9109e0eb5d77e8398"
+      "bytes": 24022260,
+      "sha256": "0e79d94155dbce28d5831d65030df4a26669a164441b2d9a29d67268b47e44f4"
     },
     {
       "file": "lib/music-service.mjs",
@@ -172,6 +172,66 @@
       "sha256": "a30bcfe7f46f110fd592069476bd1878bacb92f8562e79aa420491c11fc919db"
     },
     {
+      "file": "public/assets/life-album/campus.jpg",
+      "bytes": 251300,
+      "sha256": "f3a19975b733f19bd9ebed5ecfc9babceeba79aabea1731f41ad59c910bee25a"
+    },
+    {
+      "file": "public/assets/life-album/christmas.jpg",
+      "bytes": 288012,
+      "sha256": "4a9a1a5de9ec8868ab5c86492e024e065aa6581a14e6a27057fff66bdb8daa33"
+    },
+    {
+      "file": "public/assets/life-album/desk.jpg",
+      "bytes": 307373,
+      "sha256": "174311e889bfe6e758a04db4a5c93c1a385917ae280c0588c3502ce06245d0a6"
+    },
+    {
+      "file": "public/assets/life-album/grass.jpg",
+      "bytes": 5012016,
+      "sha256": "16871dd084e934ba8ea391064e9cf6e89f4fc372ba7615fe575e9d5e1ca5ea9e"
+    },
+    {
+      "file": "public/assets/life-album/home-sunset.jpg",
+      "bytes": 204998,
+      "sha256": "4f080e372c441da8bc79696db478cf3149f2e1c103fdd553b35d75fe844d8762"
+    },
+    {
+      "file": "public/assets/life-album/intersection.jpg",
+      "bytes": 160993,
+      "sha256": "2c5e8cb5d677718531a640d6d33c428925ace1d61ec6db0c4859fd9eb1279c54"
+    },
+    {
+      "file": "public/assets/life-album/moon.jpg",
+      "bytes": 1602240,
+      "sha256": "ff9820acdafc8c490589430a778b3c0c7b1b627ba39bc3c6717c0406f857a09f"
+    },
+    {
+      "file": "public/assets/life-album/peace-night.jpg",
+      "bytes": 291705,
+      "sha256": "88177c153bd74a412db464d15ae125bfec76d7d2fc84286c7f249a554c7f6300"
+    },
+    {
+      "file": "public/assets/life-album/qianhai.jpg",
+      "bytes": 96684,
+      "sha256": "dcc3199021dff934df5a3a7a394d5ba2d8e1a17d87724cf724a843dc910c3679"
+    },
+    {
+      "file": "public/assets/life-album/street.jpg",
+      "bytes": 304995,
+      "sha256": "d8eeadaac5f804ed1840852279945a6761bb6c4b03dce84b87f4097dc99fb1a3"
+    },
+    {
+      "file": "public/assets/life-album/tencent-badge.jpg",
+      "bytes": 869874,
+      "sha256": "0d3386aa1660a6d2201b09cb4a2c1caa9104f346b6dc04bc4352bb0592c5548b"
+    },
+    {
+      "file": "public/assets/life-album/window-sunset.jpg",
+      "bytes": 89236,
+      "sha256": "efbb9059b6dbfa45a4a6fc3e22e005cfe9c5dc87a0c492e6b66c3344d52335a9"
+    },
+    {
       "file": "public/assets/lol/experience-table.png",
       "bytes": 97580,
       "sha256": "2ad5a8a7251f05ddbb3861483f159dfdf3935c4791922eb143a2a575ac0595f5"
@@ -273,13 +333,13 @@
     },
     {
       "file": "public/assets/writing.css",
-      "bytes": 10196,
-      "sha256": "47dbd75841a950566c0f6da7d8e3a08fa53aeca4f9dc2f025ccd22864c09dabe"
+      "bytes": 11895,
+      "sha256": "6859b92f5b3919683c4948227560f0c339e0124dfd16049808a58bb73f49cb14"
     },
     {
       "file": "public/assets/writing.js",
-      "bytes": 2609,
-      "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
+      "bytes": 2841,
+      "sha256": "bc445f811e58507c445f144ef8b76f8e86760ebcaf55628927db960256a7bb26"
     },
     {
       "file": "public/blog-ai-planning-lecture.html",
@@ -318,8 +378,8 @@
     },
     {
       "file": "public/blog.html",
-      "bytes": 17530,
-      "sha256": "839d88c5a0c8a92b921c96b713644ade48296fd65a3f9d3223ed418c1aa7b82c"
+      "bytes": 21975,
+      "sha256": "9afdb23b1b3f6b380c206fc4e6744b119abc76582f0fc0fb7fd9ba366987ff92"
     },
     {
       "file": "public/campus-parking.html",
@@ -338,8 +398,8 @@
     },
     {
       "file": "public/index.html",
-      "bytes": 11374394,
-      "sha256": "06da2864d7c365a155fddc35b23a7d0cc374496582a1d5724234df50b32f76a1"
+      "bytes": 24022348,
+      "sha256": "ee189aa62b9661d0c511a543c92763e53190d498809e81e7b3b8c24e055d3be1"
     },
     {
       "file": "public/rift-protocol.html",
@@ -462,6 +522,66 @@
       "sha256": "a30bcfe7f46f110fd592069476bd1878bacb92f8562e79aa420491c11fc919db"
     },
     {
+      "file": "src/site/assets/life-album/campus.jpg",
+      "bytes": 251300,
+      "sha256": "f3a19975b733f19bd9ebed5ecfc9babceeba79aabea1731f41ad59c910bee25a"
+    },
+    {
+      "file": "src/site/assets/life-album/christmas.jpg",
+      "bytes": 288012,
+      "sha256": "4a9a1a5de9ec8868ab5c86492e024e065aa6581a14e6a27057fff66bdb8daa33"
+    },
+    {
+      "file": "src/site/assets/life-album/desk.jpg",
+      "bytes": 307373,
+      "sha256": "174311e889bfe6e758a04db4a5c93c1a385917ae280c0588c3502ce06245d0a6"
+    },
+    {
+      "file": "src/site/assets/life-album/grass.jpg",
+      "bytes": 5012016,
+      "sha256": "16871dd084e934ba8ea391064e9cf6e89f4fc372ba7615fe575e9d5e1ca5ea9e"
+    },
+    {
+      "file": "src/site/assets/life-album/home-sunset.jpg",
+      "bytes": 204998,
+      "sha256": "4f080e372c441da8bc79696db478cf3149f2e1c103fdd553b35d75fe844d8762"
+    },
+    {
+      "file": "src/site/assets/life-album/intersection.jpg",
+      "bytes": 160993,
+      "sha256": "2c5e8cb5d677718531a640d6d33c428925ace1d61ec6db0c4859fd9eb1279c54"
+    },
+    {
+      "file": "src/site/assets/life-album/moon.jpg",
+      "bytes": 1602240,
+      "sha256": "ff9820acdafc8c490589430a778b3c0c7b1b627ba39bc3c6717c0406f857a09f"
+    },
+    {
+      "file": "src/site/assets/life-album/peace-night.jpg",
+      "bytes": 291705,
+      "sha256": "88177c153bd74a412db464d15ae125bfec76d7d2fc84286c7f249a554c7f6300"
+    },
+    {
+      "file": "src/site/assets/life-album/qianhai.jpg",
+      "bytes": 96684,
+      "sha256": "dcc3199021dff934df5a3a7a394d5ba2d8e1a17d87724cf724a843dc910c3679"
+    },
+    {
+      "file": "src/site/assets/life-album/street.jpg",
+      "bytes": 304995,
+      "sha256": "d8eeadaac5f804ed1840852279945a6761bb6c4b03dce84b87f4097dc99fb1a3"
+    },
+    {
+      "file": "src/site/assets/life-album/tencent-badge.jpg",
+      "bytes": 869874,
+      "sha256": "0d3386aa1660a6d2201b09cb4a2c1caa9104f346b6dc04bc4352bb0592c5548b"
+    },
+    {
+      "file": "src/site/assets/life-album/window-sunset.jpg",
+      "bytes": 89236,
+      "sha256": "efbb9059b6dbfa45a4a6fc3e22e005cfe9c5dc87a0c492e6b66c3344d52335a9"
+    },
+    {
       "file": "src/site/assets/lol/experience-table.png",
       "bytes": 97580,
       "sha256": "2ad5a8a7251f05ddbb3861483f159dfdf3935c4791922eb143a2a575ac0595f5"
@@ -563,13 +683,13 @@
     },
     {
       "file": "src/site/assets/writing.css",
-      "bytes": 10196,
-      "sha256": "47dbd75841a950566c0f6da7d8e3a08fa53aeca4f9dc2f025ccd22864c09dabe"
+      "bytes": 11895,
+      "sha256": "6859b92f5b3919683c4948227560f0c339e0124dfd16049808a58bb73f49cb14"
     },
     {
       "file": "src/site/assets/writing.js",
-      "bytes": 2609,
-      "sha256": "f7b925871165bbee9b7550ed7fa68a96df6d4e66a1de2ab33fd56dd16d2557ab"
+      "bytes": 2841,
+      "sha256": "bc445f811e58507c445f144ef8b76f8e86760ebcaf55628927db960256a7bb26"
     },
     {
       "file": "src/site/blog-ai-planning-lecture.html",
@@ -608,8 +728,8 @@
     },
     {
       "file": "src/site/blog.html",
-      "bytes": 17389,
-      "sha256": "d2549f63dcfd001d5c6821b58ce078e15e7add435a0c075072b192b3667ee80d"
+      "bytes": 21834,
+      "sha256": "be8f5d4654c5fcfe0232825c3f55fca02387ff0eff4dd54f68d2cda56f452746"
     },
     {
       "file": "src/site/campus-parking.html",
@@ -628,8 +748,8 @@
     },
     {
       "file": "src/site/index.html",
-      "bytes": 2264319,
-      "sha256": "a5896a89991ce830a7e87be0895d3ba78bce69490975440fd30ae11fb21715b9"
+      "bytes": 2264355,
+      "sha256": "8347f65134fce0cc871724aa29a2005f002ff487636e6d100f8fb49345576201"
     },
     {
       "file": "src/site/rift-protocol.html",

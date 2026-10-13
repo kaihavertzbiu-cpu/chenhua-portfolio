@@ -32,11 +32,16 @@
   for(const button of document.querySelectorAll('.album-photo'))button.addEventListener('click',()=>{
     const thumbnail=button.querySelector('img'),entry=button.closest('.album-entry');
     image.src=thumbnail.currentSrc||thumbnail.src;image.alt=thumbnail.alt;
-    document.querySelector('#album-photo-title').textContent=thumbnail.alt;
-    document.querySelector('#album-photo-date').textContent=entry.querySelector('time').textContent;
-    document.querySelector('#album-photo-caption').textContent=button.dataset.caption||entry.querySelector('.album-caption').textContent;
+    const date=entry.querySelector('time'),largeDate=document.querySelector('#album-photo-date');
+    largeDate.textContent=date.textContent;largeDate.dateTime=date.dateTime;
+    const caption=document.querySelector('#album-photo-caption');
+    caption.textContent=button.dataset.caption||'';caption.hidden=!caption.textContent;
     viewer.showModal();
   });
   viewer.querySelector('.album-close').addEventListener('click',()=>viewer.close());
-  viewer.addEventListener('click',event=>{if(event.target===viewer)viewer.close();});
+  viewer.addEventListener('click',event=>{
+    if(event.target!==viewer)return;
+    const rect=viewer.getBoundingClientRect();
+    if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)viewer.close();
+  });
 })();
